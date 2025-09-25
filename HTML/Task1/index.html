@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prince Chouksey | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .contact-form {
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+    height: 80px;
+  }
+
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .success-message {
+    display: none;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+  }
+</style>
 </head>
 <body>
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Prince.</div>
-      <ul class="navLinks">
-        <li><a href="./index.html" target="_blank">Home</a></li>
-        <li><a href="./About.html" target="_self">About</a></li>
-        <li><a href="./Portfolio.html">Portfolio</a></li>
-        <li><a href="./Services.html">Services</a></li>
-        <li><a href="./Blog.html">Blog</a></li>
-        <li><a href="./Contact.html">Contact</a></li>
-      </ul>
-      <a href="Prince_Chouksey_CV.pdf" class="btn" download>Download CV</a>
-    </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <main id="home" class="hero">
-    <div class="hero-left">
-      <h2>Hey, I am</h2>
-      <h1><span>Prince Chouksey</span></h1>
-      <h3>MERN Stack Developer</h3>
-      <p>
-        A Computer Science student passionate about technology, coding, and innovation. 
-        I enjoy solving problems, exploring new ideas, and continuously learning to grow 
-        as a developer and tech enthusiast.
-      </p>
-      <button class="btn">Hire Me</button>
-    </div>
+<form class="contact-form" id="contactForm">
+  <h2>Contact Me</h2>
 
-    <div class="hero-right">
-      <img src="college dress.jpg" alt="Prince Chouksey">
-    </div>
-  </main>
-  
- 
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+  <select id="subject" name="subject" required>
+    <option value="">Select Subject</option>
+    <option value="hiring">Hiring</option>
+    <option value="collaboration">Collaboration</option>
+    <option value="general">General Inquiry</option>
+  </select>
+
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Submit</button>
+
+  <p class="success-message" id="successMessage">Thanks! I’ll get back to you soon 🚀</p>
+</form>
+
+<script>
+  const form = document.getElementById('contactForm');
+  const successMessage = document.getElementById('successMessage');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    successMessage.style.display = 'block';
+    form.reset();
+  });
+</script>
+
+
 </body>
 </html>
