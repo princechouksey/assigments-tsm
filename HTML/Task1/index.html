@@ -1,268 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prince Chouksey | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .contact-form {
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+    height: 80px;
+  }
+
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .success-message {
+    display: none;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+  }
+</style>
 </head>
 <body>
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Prince.</div>
-      <ul class="navLinks">
-        <li><a href="./index.html" target="_blank">Home</a></li>
-        <li><a href="./About.html" target="_self">About</a></li>
-        <li><a href="./Portfolio.html">Portfolio</a></li>
-        <li><a href="./Services.html">Services</a></li>
-        <li><a href="./Blog.html">Blog</a></li>
-        <li><a href="./Contact.html">Contact</a></li>
-      </ul>
-      <a href="Prince_Chouksey_CV.pdf" class="btn" download>Download CV</a>
-    </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <main id="home" class="hero">
-    <div class="hero-left">
-      <h2>Hey, I am</h2>
-      <h1><span>Prince Chouksey</span></h1>
-      <h3>MERN Stack Developer</h3>
-      <p>
-        A Computer Science student passionate about technology, coding, and innovation. 
-        I enjoy solving problems, exploring new ideas, and continuously learning to grow 
-        as a developer and tech enthusiast.
-      </p>
-      <button class="btn">Hire Me</button>
-    </div>
+<form class="contact-form" id="contactForm">
+  <h2>Contact Me</h2>
 
-    <div class="hero-right">
-      <img src="college dress.jpg" alt="Prince Chouksey">
-    </div>
-  </main>
-  
- 
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <input type="email" id="email" name="email" placeholder="Your Email" required>
 
+  <select id="subject" name="subject" required>
+    <option value="">Select Subject</option>
+    <option value="hiring">Hiring</option>
+    <option value="collaboration">Collaboration</option>
+    <option value="general">General Inquiry</option>
+  </select>
 
-  <!-- Education Section -->
-  <section id="education">
-    <h2>My Education</h2>
-    <table>
-      <tr>
-        <th>Degree</th>
-        <th>Institution</th>
-        <th>Year</th>
-        <th>Grade / Percentage</th>
-      </tr>
-      <tr>
-        <td>B.Tech in Computer Science  Engineering </td>
-        <td>Oriental Institute of Science & Technology, Bhopal</td>
-        <td>2022–2026</td>
-        <td>8.06 CGPA</td>
-      </tr>
-      <tr>
-        <td>12th (Senior Secondary)</td>
-        <td>Samaritans English Medium School, Narmadapuram </td>
-        <td>2022</td>
-        <td>82%</td>
-      </tr>
-      <tr>
-        <td>10th (High School)</td>
-        <td>St. Mary's Convent Hr. Sec. School, Bankhedi</td>
-        <td>2020</td>
-        <td>97%</td>
-      </tr>
-    </table>
-  </section>
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
 
+  <button type="submit">Submit</button>
 
- <section id="experience">
-  <div class="experience-container">
-    <!-- Left content -->
-    <div class="experience-text">
-      <h2>My Journey at The Stackmentalist</h2>
-      <p>
-        I joined <strong>The Stackmentalist</strong> as an SDE Trainee, stepping into an incredible opportunity to learn, grow, and challenge myself in the world of technology. 
-        My journey began in Pune on September 22nd, arriving at the office at 10 AM. The first day was filled with an engaging onboarding process, 
-        exploring the offices, and understanding the organization's workflow. I also had the privilege of a one-on-one session with our inspiring Tech Lead, <strong>Sanket Jain Sir</strong>, 
-        which motivated me to aim higher and embrace new challenges.
-      </p>
-      <p>
-        On the second day, I got assigned my first real tasks, marking the beginning of my practical learning journey. 
-        Later in the evening, we had a heartwarming hamper distribution event with our CEO, which reflected the organization's culture of care and encouragement.
-      </p>
-      <p>
-        This experience has been truly motivational, teaching me the value of continuous learning, perseverance, and teamwork. 
-        Being a part of <strong>The Stackmentalist</strong> has inspired me to push my boundaries, absorb knowledge, and apply it with confidence in real-world projects.
-      </p>
-    </div>
+  <p class="success-message" id="successMessage">Thanks! I’ll get back to you soon 🚀</p>
+</form>
 
-    <!-- Right image -->
-    <div class="experience-image">
-      <img src="./images/tsm.jpg" alt="The Stackmentalist Office">
-    </div>
-  </div>
-</section>
-  <section id="projects">
-  <h2>My Projects</h2>
-  <div class="projects-container">
-    <!-- Project 1 -->
-   <div class="project-card">
-      <img src="./images/image.png" alt="Project 1">
-      <h3>Smart city complaint management system  </h3>
-      <div id="tech-stack">
-        <div>
-          <img src="./images/1012818_code_development_logo_nodejs_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/1012822_code_development_logo_mongodb_programming_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/1296845_framework_development_apps_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/652583_code_develop_html_language_layout_icon.png" alt="">
-        </div>
-      </div>
-      <div class="project-links">
-        <i class="ri-arrow-right-up-box-line">
-          <a href=""></a>
-        </i>
-        <i class="ri-github-fill">
-          <a href="https://github.com/princechouksey"></a>
-        </i>
-         
-      </div>
-    </div>
+<script>
+  const form = document.getElementById('contactForm');
+  const successMessage = document.getElementById('successMessage');
 
-    <!-- Project 2 -->
- <div class="project-card">
-      <img src="./images/Airbnb.png" alt="Project 1">
-      <h3>Smart city complaint management system  </h3>
-      <div id="tech-stack">
-        <div>
-          <img src="./images/1012818_code_development_logo_nodejs_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/1012822_code_development_logo_mongodb_programming_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/1296845_framework_development_apps_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/652583_code_develop_html_language_layout_icon.png" alt="">
-        </div>
-      </div>
-      <div class="project-links">
-        <i class="ri-arrow-right-up-box-line">
-          <a href=""></a>
-        </i>
-        <i class="ri-github-fill">
-          <a href="https://github.com/princechouksey"></a>
-        </i>
-         
-      </div>
-    </div>
-
-
-    <!-- Project 3 -->
-   <div class="project-card">
-      <img src="./images/Ai code review.png" alt="Project 1">
-      <h3>Smart city complaint management system  </h3>
-      <div id="tech-stack">
-        <div>
-          <img src="./images/1012818_code_development_logo_nodejs_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/1012822_code_development_logo_mongodb_programming_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/1296845_framework_development_apps_icon.png" alt="">
-        </div>
-        <div>
-          <img src="./images/652583_code_develop_html_language_layout_icon.png" alt="">
-        </div>
-      </div>
-      <div class="project-links">
-        <i class="ri-arrow-right-up-box-line">
-          <a href=""></a>
-        </i>
-        <i class="ri-github-fill">
-          <a href="https://github.com/princechouksey"></a>
-        </i>
-         
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
- <section id="canva">
-    <h2>Draw Anything ...</h2>
-    <canvas></canvas>
-    <div class="controls">
-  <label>Color: <input type="color" id="colorPicker" value="#007bff"></label>
-  <label>Brush Size: <input type="range" id="brushSize" min="1" max="20" value="5"></label>
-  <button id="clearBtn">Clear</button>
-</div>
-  </section>
-
-
-  <script>
-  const canvas = document.querySelector("#canva canvas");
-  const ctx = canvas.getContext("2d");
-
-  const colorPicker = document.getElementById("colorPicker");
-  const brushSize = document.getElementById("brushSize");
-  const clearBtn = document.getElementById("clearBtn");
-
-  let drawing = false;
-  let lastX = 0;
-  let lastY = 0;
-
-  // Set canvas size
-  canvas.width = canvas.offsetWidth;
-  canvas.height = canvas.offsetHeight;
-
-  function startPosition(e) {
-    drawing = true;
-    [lastX, lastY] = [e.offsetX, e.offsetY];
-  }
-
-  function endPosition() {
-    drawing = false;
-    ctx.beginPath(); // Reset path
-  }
-
-  function draw(e) {
-    if (!drawing) return;
-
-    ctx.strokeStyle = colorPicker.value;
-    ctx.lineWidth = brushSize.value;
-    ctx.lineCap = "round";
-
-    ctx.beginPath();
-    ctx.moveTo(lastX, lastY);
-    ctx.lineTo(e.offsetX, e.offsetY);
-    ctx.stroke();
-    [lastX, lastY] = [e.offsetX, e.offsetY];
-  }
-
-  // Mouse events
-  canvas.addEventListener("mousedown", startPosition);
-  canvas.addEventListener("mouseup", endPosition);
-  canvas.addEventListener("mouseout", endPosition);
-  canvas.addEventListener("mousemove", draw);
-
-  // Clear canvas
-  clearBtn.addEventListener("click", () => {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    successMessage.style.display = 'block';
+    form.reset();
   });
 </script>
 
