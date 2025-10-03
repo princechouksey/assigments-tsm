@@ -1,0 +1,44 @@
+@use "mixins";
+@use "variables";
+
+.category {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  background-color: #eae7e7;
+
+  h2 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .category-cards {
+    width: 100%;
+    height: auto;
+    @include mixins.flex(center, center);
+    gap: 1em;
+
+    .category-card{
+        margin-top: 13px;
+        width: 25vw;
+        height: 70vh;
+        position: relative;
+
+        video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 3px;
+        }
+        h1{
+            position: absolute;
+            top: 3%;
+            left: 8%;
+            color: variables.$black;
+            font-size: 30px;
+            font-family: variables.$font-main;
+        }
+
+    }
+  }
+
+}

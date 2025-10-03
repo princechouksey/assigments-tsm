@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Counter</h2>
+    <h4>Count: </h4>
+    <button   id="button1">Increment</button>
+    <button id="button2">Decrement</button>
+    <label for="text-input">Type something:</label>
+<input type="text" id="text-input" placeholder="Your text here...">
+<p>You are typing: <span id="output-text"></span></p>
+<input class="save" type="submit">
+
+
+
+<div class="container " style="width: 200px; height: 200px;">
+  <h2>Click the button to change the background color!</h2>
+  <button id="color-btn">Change Color</button>
+</div>
+
+ 
+
+<h1>Image Gallery</h1>
+<img id="gallery-img" src=" https://images.pexels.com/photos/33136159/pexels-photo-33136159.jpeg" alt="Gallery Image" width="400">
+<br>
+<button id="prev-btn">Previous</button>
+<button id="next-btn">Next</button>
+
+
+
+<h1>To-Do List</h1>
+<input type="text" id="task-input" placeholder="Add a new task...">
+<button id="add-btn">Add Task</button>
+<ul id="task-list"></ul>
+
+
+
+
+
+
+
+<style>
+  body.dark-mode {
+    background-color: #333;
+    color: #f1f1f1;
+  }
+</style>
+
+<button id="theme-toggle">Toggle Theme</button>
+<p>Some content on the page.</p>
+
+
+
+<label for="tweet">Compose your message:</label>
+<textarea id="tweet" maxlength="140"></textarea>
+<p>Characters remaining: <span id="char-count">140</span></p>
+
+
+
+<label for="options">Choose a topic:</label>
+<select id="options">
+  <option value="">--Please choose an option--</option>
+  <option value="js">JavaScript</option>
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+</select>
+<p id="selection-output"> </p>
+</body>
+<script>
+    const h4 = document.querySelector("h4");
+    const btn1  = document.querySelector("#button1")
+    const btn2  = document.querySelector("#button2")
+
+    
+    let count =0
+    btn1.addEventListener("click", ()=>{
+        count++; 
+        console.log(count);
+        h4.textContent = `Count : ${count}` 
+    })
+
+  btn2.addEventListener("click", ()=>{
+        count--; 
+        console.log(count);
+        h4.textContent = `Count : ${count}` 
+    })
+   const inputField = document.getElementById("text-input");
+    const outputSpan = document.getElementById("output-text");
+
+    // Add input event listener
+    inputField.addEventListener("input", function() {
+      // Update span with the input value
+      outputSpan.textContent = inputField.value;
+    });
+
+    function task3(){
+        const container  = document.querySelector(".container")
+        const changeColor = document.querySelector("#color-btn")
+        changeColor.addEventListener("click", ()=>{
+            var r = Math.floor(Math.random() * 255) +1;
+            var g = Math.floor(Math.random() * 255) +1;
+            var b = Math.floor(Math.random() * 255) +1;
+            container.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
+            console.log(r,g,b);
+
+
+
+            
+        })
+
+    }
+    task3() 
+function Task4() {
+  const img = document.querySelector("#gallery-img");
+  const prev = document.querySelector("#prev-btn");
+  const next = document.querySelector("#next-btn");
+
+  const imageUrls = [
+    "https://images.pexels.com/photos/33136159/pexels-photo-33136159.jpeg",
+    "https://images.pexels.com/photos/33758551/pexels-photo-33758551.jpeg",
+    "https://images.pexels.com/photos/9171477/pexels-photo-9171477.jpeg",
+    "https://images.pexels.com/photos/8285057/pexels-photo-8285057.jpeg"
+  ];
+
+  let index = 0;
+
+  function updateImage() {
+    img.src = imageUrls[index]; // Fixed this line
+  }
+
+  next.addEventListener("click", () => {
+    index++;
+    if (index >= imageUrls.length) {
+      index = 0;
+    }
+    updateImage();
+  });
+
+  prev.addEventListener("click", () => {
+    index--;
+    if (index < 0) {
+      index = imageUrls.length - 1;
+    }
+    updateImage();
+  });
+}
+
+// Task4();
+
+
+function Task5(){
+    const textInput = document.querySelector("#task-input")
+    const addTask  = document.querySelector("#add-btn");
+    const taskList = document.querySelector("#task-list")
+    addTask.addEventListener("click", ()=>{
+        console.log("btn clicked");
+        let text = textInput.value.trim();
+        if(text != ""){
+            const li = document.createElement("li");
+            li.textContent = text;
+            taskList.appendChild(li)
+            textInput.value = "";                     // Clear input
+            textInput.focus();
+        }
+        else {
+        alert("Please enter a task!");           // Optional: warn user
+      }
+
+    })
+
+
+}
+Task5()
+
+function Task6(){
+    const toggleBtn = document.getElementById("theme-toggle");
+
+  // Add click event
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  })
+}
+Task6()
+
+
+
+
+const textarea = document.getElementById("tweet");
+const charCount = document.getElementById("char-count");
+const maxLength = 140;
+
+textarea.addEventListener("input", () => {
+  const remaining = maxLength - textarea.value.length;
+  charCount.textContent = remaining;
+});
+
+const select = document.getElementById("options")
+const p = document.querySelector("#selection-output")
+select.addEventListener("change", ()=>{
+    const option = select.value;
+    console.log(option);
+    p.textContent = `You have Selected : ${option}`
+
+})
+
+export const PI = 3.14159
+export function add(a,b){
+  console.log(a+b);
+}
+export function subtract (a,b){
+  console.log(a-b);
+}
+  export default multiply  = (a,b)=>{
+    console.log(a*b);
+  }  
+    
+</script>
+</html>

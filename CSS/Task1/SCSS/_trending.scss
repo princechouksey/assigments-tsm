@@ -1,0 +1,79 @@
+@use "mixins";
+@use "variables";
+@use "sass:color";
+.trending {
+  width: 100%;
+  height: 100vh;
+  background-color: variables.$light-gray;
+  padding: variables.$padding-lg;
+
+  .trending-vehicles {
+    @include mixins.flex(space-between, center);
+    padding: 30px;
+
+    h3 {
+      font-size: 50px;
+      color: variables.$black;
+      font-family: variables.$font-main;
+    }
+    button {
+      @include mixins.button(variables.$blue-light, variables.$black);
+      font-size: 15px;
+    }
+    i {
+      padding-left: 5px;
+      font-size: 15px;
+    }
+  }
+}
+.trending-carts {
+  width: 100%;
+  height: 55vh;
+  @include mixins.flex(center, center);
+  gap: 0.3rem;
+  padding: 0px 30px 0px 30px;
+
+  .trending-cart {
+    position: relative;
+    width: 25vw;
+    height: 100%;
+    background-color: variables.$white;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all ease 0.2s;
+    color: variables.$black;
+
+    &:hover {
+      background-color: color.adjust(variables.$blue-light, $lightness: 40%)
+    }
+
+    img {
+      padding: 15px;
+      width: 100%;
+      height: 25vh;
+      object-fit: cover;
+      object-position: center;
+    }
+    h1 {
+      padding: 5px;
+      padding-left: 15px;
+    }
+    .price {
+      @include mixins.flex(space-between, center);
+      margin-top: variables.$padding-md;
+      padding: variables.$padding-md;
+
+      button {
+        @include mixins.button(variables.$blue-light, variables.$white);
+        padding: 10px 20px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+        color: variables.$black;
+      }
+    }
+  }
+}

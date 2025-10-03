@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #858383;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #585454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    height: 85vh;
+    width: 50vw;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.contact-form h2{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    padding-bottom: 0;
+    color: #000;
+    padding-top: 5px;
+}
+.contact-form p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.contact-form input{
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size:15px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+textarea{
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+
+
+.contact-form h3{
+    margin-top: 2px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 12px;
+    color: #555151;
+    font-weight: 500;
+}
+input[type="submit"]{
+    padding: 15px 35px;
+    font-size: 15px;
+    color: #000;
+   font-weight: 700;
+}
+span{
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(120, 150, 240);
+    transition: all 0.3s ease;
+}
+input:focus {
+  outline: none;
+  background-color: #f0f8ff;
+}
+

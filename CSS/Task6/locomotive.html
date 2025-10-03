@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locomotive Scroll Demo</title>
+
+  <!-- Locomotive CSS -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    /* Main scroll container */
+    [data-scroll-container] {
+      overflow: hidden;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+
+    #home { background: #1e3a8a; }
+    #about { background: #047857; }
+    #services { background: #b91c1c; }
+    #contact { background: #6d28d9; }
+
+    nav {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 20px;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home" data-scroll-to>Home</a>
+    <a href="#about" data-scroll-to>About</a>
+    <a href="#services" data-scroll-to>Services</a>
+    <a href="#contact" data-scroll-to>Contact</a>
+  </nav>
+
+  <!-- Scroll container -->
+  <div data-scroll-container>
+    <section id="home" data-scroll-section>Home</section>
+    <section id="about" data-scroll-section>About</section>
+    <section id="services" data-scroll-section>Services</section>
+    <section id="contact" data-scroll-section>Contact</section>
+  </div>
+
+  <!-- Locomotive JS -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script>
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+      lerp: 0.08, // lower = smoother but slower
+      multiplier: 1.2, // scroll speed (higher = faster)
+    })
+  </script>
+</body>
+</html>

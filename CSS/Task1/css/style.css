@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+main {
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav .lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  list-style: none;
+}
+nav .lists .a {
+  text-decoration: none;
+  color: #6d6c6c;
+}
+nav .lists .a:hover {
+  color: #000;
+  transition: all ease 0.3s;
+}
+nav .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+nav .button #btn1 {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e4ead;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 40px;
+}
+nav .button #btn1:hover {
+  background-color: rgb(35.2876712329, 59.8356164384, 132.7123287671);
+}
+nav .button #btn2 {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e4ead;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 15px;
+  padding: 8px 24px;
+  border-radius: 40px;
+}
+nav .button #btn2:hover {
+  background-color: rgb(35.2876712329, 59.8356164384, 132.7123287671);
+}
+
+#home {
+  position: relative;
+  color: #000;
+}
+#home::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#cName {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+#cName::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(46, 78, 173);
+  left: -10%;
+  top: -70%;
+}
+
+.hero {
+  width: 98vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  padding: 30px;
+}
+.hero .hero1 {
+  width: 30%;
+  height: 80%;
+}
+.hero .hero1 h1 {
+  font-size: 3em;
+  line-height: -2;
+  color: #2e4ead;
+}
+.hero .hero1 h2 {
+  font-size: 3em;
+  line-height: 0.5;
+}
+.hero .hero1 button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e4ead;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.hero .hero1 button:hover {
+  background-color: rgb(29.9315068493, 50.7534246575, 112.5684931507);
+  transition: all ease 0.1s;
+}
+.hero .hero2 {
+  width: 50%;
+  height: 90%;
+}
+.hero .hero2 img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.category {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  background-color: #eae7e7;
+}
+.category h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.category .category-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.category .category-cards .category-card {
+  margin-top: 13px;
+  width: 25vw;
+  height: 70vh;
+  position: relative;
+}
+.category .category-cards .category-card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.category .category-cards .category-card h1 {
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  color: #000;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.trending {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+  padding: 50px;
+}
+.trending .trending-vehicles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.trending .trending-vehicles h3 {
+  font-size: 50px;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+.trending .trending-vehicles button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c8ef4;
+  color: #000;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 15px;
+}
+.trending .trending-vehicles i {
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.trending-carts {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0px 30px 0px 30px;
+}
+.trending-carts .trending-cart {
+  position: relative;
+  width: 25vw;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: all ease 0.2s;
+  color: #000;
+}
+.trending-carts .trending-cart:hover {
+  background-color: hsl(225, 86.0759493671%, 109.0196078431%);
+}
+.trending-carts .trending-cart img {
+  padding: 15px;
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  object-position: center;
+}
+.trending-carts .trending-cart h1 {
+  padding: 5px;
+  padding-left: 15px;
+}
+.trending-carts .trending-cart .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+.trending-carts .trending-cart .price button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c8ef4;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  padding: 10px 20px;
+}
+.trending-carts .trending-cart .price h3 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+  color: #000;
+}
+
+.discount {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images//download\\(5).jpg");
+  background-size: cover;
+  background-position: start;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.discount .discount-heading {
+  padding: 50px;
+  position: absolute;
+}
+.discount .discount-heading h3 {
+  margin-top: 30px;
+  color: #000;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.discount .discount-heading button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c8ef4;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 20px;
+}
+
+.tesla-image {
+  width: 80%;
+  height: 50vh;
+  position: relative;
+  transform: translateX(-50%);
+  top: 50%;
+  left: 50%;
+}
+.tesla-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tesla-discount {
+  height: 40vh;
+  width: 250px;
+  position: absolute;
+  left: 70%;
+  top: 9%;
+  color: #fff;
+  border-radius: 20px;
+  background: transparent;
+}
+.tesla-discount h1 {
+  font-size: 90px;
+  text-align: center;
+  line-height: 1;
+  padding: 10px;
+  font-weight: 600;
+  color: #6c8ef4;
+}
+.tesla-discount h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  padding-left: 20px;
+  color: #6c8ef4;
+}
+
+/*# sourceMappingURL=style.css.map */

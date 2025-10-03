@@ -1,0 +1,27 @@
+$primary: #1e90ff;
+$padding: 10px;
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  height: 100vh;
+}
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+//   background-color: #037cc2;
+  @include flex-center();
+}
+.child {
+  width: 25%;
+  height: 50%;
+  background-color: #992020;
+}
+
+

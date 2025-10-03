@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARS</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body>
+    <main data-scroll-container>
+     <header>
+    <nav data-scroll-section>
+        <ul class="lists">
+            <li><a id="cName" href=""> <h2 style="font-size: 24px;  font-weight: bold; padding-left: 20px;">
+        <span style="color: black;">r</span><span style="color: #4285f4;">R</span><span style="color: black;">w</span>
+      </h2></a></li>
+            <li><a id="home" href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+
+        <div class="button">
+            <button id="btn1">Sign in</button>
+            <button id="btn2">Register</button>
+        </div>
+
+        <div class="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+      <section data-scroll-section class="hero">
+        <div class="hero1 ">
+          <h2 class="font-bold" >GET YOUR</h2>
+          <h1 class="font-bold">DREAM CAR</h1>
+          <p>
+            Lorem, ipsum dolor aspernatur est nemo expedita sapiente. Dolores,
+            placeat vel amet fuga laborum aliquam dolorem veniam architecto
+            totam nesciunt deserunt dolorum dolor eos iste cum similique quam
+            obcaecati nam. Impedit quasi voluptatibus voluptas.
+          </p>
+          <button>Discover</button>
+        </div>
+        <div class="hero2">
+          <img
+            src="http://carrental.themeinjection.com/theme/img/car1.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section data-scroll-section  class="category font-bold">
+        <h2>CAR CATEGORY</h2>
+        <div class="category-cards">
+          <div class="category-card" id="first">
+            <h1 class="car-text">AUDI</h1>
+            <video
+              loop
+              muted
+              autoplay
+              src="./videos/20523621-hd_1080_1920_50fps.mp4"
+            ></video>
+          </div>
+          <div class="category-card" id="first">
+            <h1 class="car-text">CORVETTE</h1>
+            <video
+              loop
+              muted
+              autoplay
+              src="./videos/e6da8baac54b473aa59ac2c8ab01849e.mp4"
+            ></video>
+          </div>
+          <div class="category-card" id="first">
+            <h1 class="car-text">BMW</h1>
+
+            <video
+              loop
+              muted
+              autoplay
+              src="./videos/13127448_1920_1080_60fps.mp4"
+            ></video>
+          </div>
+          <div class="category-card" id="first">
+            <h1 class="car-text">PORSCHE</h1>
+
+            <video
+              loop
+              muted
+              autoplay
+              src="./videos/28923ae720cf5d5c18f0c2310b0d3fea_720w.mp4"
+            ></video>
+          </div>
+        </div>
+      </section>
+
+
+      <section data-scroll-section class="trending ">
+        <div class="trending-vehicles " >
+            <h3 class="font-bold">TRENDING VEHICLES</h3>
+            <button>View All<i class="ri-arrow-right-line"></i> </button>
+        </div>
+        <div class="trending-carts font-bold">
+            <div class="trending-cart">
+                 <h1 class="car-text">AUDI</h1>
+                <img src="./images/Q8-removebg-preview.png" alt="">
+                <div class="price">
+                     <h3>$120/day</h3>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="trending-cart">
+                 <h1 class="car-text">BMW</h1>
+                <img src="./images/ВЕКТОР_АВТОМОБИЛИ_БМВ_БМВ_М5__1_тыс_изображений_найдено_в_Яндекс_Картинках-removebg-preview.png" alt="">
+                <div class="price">
+                    <h3>$150/day</h3>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="trending-cart">
+                 <h1 class="car-text">AUDI</h1>
+                <img src="./images/download__4_-removebg-preview.png" alt="">
+                <div class="price">
+  <h3>$130/day</h3>             
+         <button>Book Now</button>
+                </div>
+            </div>
+            <div class="trending-cart">
+                 <h1 class="car-text">AMG</h1>
+                <img src="./images/download__3_-removebg-preview.png" alt="">
+                <div class="price">
+                      <h3>$170/day</h3>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <section data-scroll-section class="discount font-bold ">
+        <div class="discount-heading">
+            <h3>Book Tesla With <br> a Big Discount</h3>
+            <button>Book Now</button>
+        </div>
+        <div class="tesla-image">
+                    <img src="./images/9503197371.png" alt="">
+
+        </div>
+         <div  class="tesla-discount"
+         >
+        <h1>50%</h1>
+        <h4>For everyone <br>Tesla Cars</h4>
+    </div>
+      </section>
+     
+       <footer data-scroll-section class="bg-white mb-5 px-20 py-10 font-sans border-t border-gray-200">
+  <div class="flex justify-between flex-wrap mb-8">
+
+    <!-- Logo and Newsletter -->
+    <div class="flex-1 min-w-[250px] mb-5">
+      <h2 class="text-2xl font-bold">
+        <span class="text-black">r</span><span class="text-blue-500">R</span><span class="text-black">w</span>
+      </h2>
+      <p class="mt-2">Subscribe to the newsletter</p>
+      <div class="flex items-center border border-gray-300 rounded-full px-3 py-1 w-[250px] mt-2">
+        <input type="email" placeholder="Email..." class="flex-1 p-2 rounded-full outline-none border-none text-sm" />
+        <button class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">➔</button>
+      </div>
+    </div>
+
+    <!-- Top Cities -->
+    <div class="flex-1 min-w-[200px] mb-5">
+      <h4 class="font-bold mb-2">Top cities</h4>
+      <ul class="space-y-1">
+        <li>New York</li>
+        <li>London</li>
+        <li>Berlin</li>
+        <li>Los Angeles</li>
+        <li>Paris</li>
+      </ul>
+    </div>
+
+    <!-- Explore -->
+    <div class="flex-1 min-w-[200px] mb-5">
+      <h4 class="font-bold mb-2">Explore</h4>
+      <ul class="space-y-1">
+        <li>Intercity rides</li>
+        <li>Limousine service</li>
+        <li>Chauffeur service</li>
+        <li>Private car service</li>
+        <li>Airport transfer</li>
+      </ul>
+    </div>
+
+    <!-- Intercity Rides -->
+    <div class="flex-1 min-w-[200px] mb-5">
+      <h4 class="font-bold mb-2">Intercity rides</h4>
+      <ul class="space-y-1">
+        <li>East Hampton - New York</li>
+        <li>New York - Washington</li>
+        <li>New York - Philadelphia</li>
+        <li>Abu Dhabi - Dubai</li>
+        <li>London - Birmingham</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="border-t border-gray-200 pt-4 flex justify-between flex-wrap items-center text-sm text-gray-600">
+    <p> © 2023 rRw</p>
+    <div class="flex flex-wrap space-x-4">
+      <a href="#" class="hover:text-black">Terms</a>
+      <a href="#" class="hover:text-black">Privacy policy</a>
+      <a href="#" class="hover:text-black">Legal notice</a>
+      <a href="#" class="hover:text-black">Accessibility</a>
+    </div>
+    <div class="flex space-x-3 text-lg">
+      <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+      <a href="#"><i class="ri-instagram-fill"></i></a>
+      <a href="#"><i class="ri-twitter-fill"></i></a>
+      <a href="#"><i class="ri-youtube-fill"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+   <script>
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+      lerp: 0.07, // lower = smoother but slower
+      multiplier: 1.2, // scroll speed (higher = faster)
+    })
+
+
+// hamburger menu 
+  const hamburger = document.querySelector(".hamburger-menu");
+  const navLists = document.querySelector(".lists");
+
+  hamburger.addEventListener("click", () => {
+    navLists.classList.toggle("show");
+  });
+  </script> 
+  </body>
+</html>

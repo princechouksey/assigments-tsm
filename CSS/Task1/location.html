@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Place Photos Workflow</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { padding: 8px; margin: 5px 0; width: 350px; }
+    #output { margin-top: 15px; padding: 10px; border: 1px solid #ccc; background: #f9f9f9; border-radius: 6px; white-space: pre-wrap; line-height: 1.6; }
+    #photos img { margin: 10px; max-width: 250px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+  </style>
+  
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKKzVRObTvnjHuSg7FDSDlRbQfnizf3a4&libraries=places&callback=initApp"></script>
+
+</head>
+<body>
+  <h2>Google Place Photo Fetcher</h2>
+  <p>Enter either an <b>Address</b> OR <b>Coordinates</b>:</p>
+
+  <input type="text" id="address" placeholder="Enter Address (e.g. Eiffel Tower Paris)">
+  <br>
+  <input type="text" id="lat" placeholder="Latitude (e.g. 40.748817)">
+  <br>
+  <input type="text" id="lng" placeholder="Longitude (e.g. -73.985428)">
+  <br>
+  <button onclick="startWorkflow()">Fetch Photos</button>
+
+  <h3>Result:</h3>
+  <div id="output"></div>
+  <div id="photos"></div>
+
+  <script>
+    let geocoder;
+    let service;
+
+    function initApp() {
+      geocoder = new google.maps.Geocoder();
+      const map = new google.maps.Map(document.createElement('div'));
+      service = new google.maps.places.PlacesService(map);
+    }
+
+    async function startWorkflow() {
+      const address = document.getElementById("address").value.trim();
+      const lat = parseFloat(document.getElementById("lat").value.trim());
+      const lng = parseFloat(document.getElementById("lng").value.trim());
+
+      const output = document.getElementById("output");
+      const photosDiv = document.getElementById("photos");
+      output.innerHTML = "Fetching...";
+      photosDiv.innerHTML = "";
+      
+      if (!geocoder || !service) {
+          alert("Google Maps SDK is not loaded yet. Please wait a moment and try again.");
+          return;
+      }
+
+      try {
+        // ✅ CHANGE 1: The geocode promise now resolves with the ENTIRE first result,
+        // not just the place_id. This gives us access to address and location.
+        const geocodeResult = await new Promise((resolve, reject) => {
+          let request = {};
+          if (address) {
+            request.address = address;
+          } else if (lat && lng) {
+            request.location = { lat, lng };
+          } else {
+            alert("Please enter either Address OR Latitude/Longitude.");
+            return reject(new Error("No input provided."));
+          }
+
+          geocoder.geocode(request, (results, status) => {
+            if (status === 'OK' && results[0]) {
+              resolve(results[0]); // Success! Return the full result object.
+            } else {
+              reject(new Error(`Geocoding failed: ${status}`));
+            }
+          });
+        });
+        
+        // ✅ CHANGE 2: Extract all necessary data from the geocode result.
+        const placeId = geocodeResult.place_id;
+        const location = geocodeResult.geometry.location;
+        const fullAddress = geocodeResult.formatted_address;
+        
+        console.log("Found Place ID:", placeId);
+
+        const place = await new Promise((resolve, reject) => {
+          const request = {
+            placeId: placeId,
+            fields: ['name', 'photos'] // We already have the address, so we only need name and photos.
+          };
+
+          service.getDetails(request, (result, status) => {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              resolve(result);
+            } else {
+              reject(new Error(`Place Details failed: ${status}`));
+            }
+          });
+        });
+        
+        // ✅ CHANGE 3: Update the output to display all the information accurately.
+        output.innerHTML =
+          `<b>Place Name: </b> ${place.name || "N/A"}\n` +
+          `<b>Address:    </b> ${fullAddress || "N/A"}\n` +
+          `<b>Latitude:   </b> ${location.lat().toFixed(6)}\n` +
+          `<b>Longitude:  </b> ${location.lng().toFixed(6)}\n` +
+          `<b>Place ID:   </b> ${placeId}`;
+
+        if (!place.photos || place.photos.length === 0) {
+          photosDiv.innerHTML = "<p>No photos available for this place.</p>";
+          return;
+        }
+
+        place.photos.forEach((photo, index) => {
+          const photoUrl = photo.getUrl({ maxWidth: 800 });
+          const img = document.createElement("img");
+          img.src = photoUrl;
+          img.alt = place.name + " photo " + (index + 1);
+          photosDiv.appendChild(img);
+        });
+
+      } catch (err) {
+        console.error(err);
+        output.innerHTML = `<p style="color:red;">Error: ${err.message}</p>`;
+      }
+    }
+  </script>
+</body>
+</html>

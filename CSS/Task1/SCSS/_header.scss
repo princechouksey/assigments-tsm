@@ -1,0 +1,87 @@
+@use "mixins";
+@use "variables";
+@use "sass:color";
+
+nav {
+  @include mixins.flex(space-between, center);
+  padding: variables.$padding-md;
+
+  .lists {
+    @include mixins.flex(center, center);
+    gap: 7rem;
+    list-style: none;
+
+    .a {
+      text-decoration: none;
+      color: #6d6c6c;
+
+      &:hover {
+        color: variables.$black;
+        transition: all ease 0.3s;
+      }
+    }
+  }
+   .button {
+    @include mixins.flex(center, center);
+    gap: 4rem;
+
+    #btn1 {
+      @include mixins.button(variables.$primary, variables.$white);
+      font-size: 15px;
+      font-weight: 500;
+      padding: 8px 24px;
+      border-radius: 40px;
+
+      &:hover {
+         background-color: color.adjust(variables.$primary, $lightness: -10%);
+;
+      }
+      
+    }
+    
+    #btn2 {
+      @include mixins.button(variables.$primary, variables.$white);
+      font-size: 15px;
+      padding:8px 24px;
+      border-radius: 40px;
+
+      &:hover {
+         background-color: color.adjust(variables.$primary, $lightness: -10%);
+;
+      }
+    }
+  }
+}
+#home {
+  position: relative;
+  color: variables.$black;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+#cName {
+  color: variables.$black;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+
+  &::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(46, 78, 173);
+    left: -10%;
+    top: -70%;
+  }
+}

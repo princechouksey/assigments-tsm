@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Module</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my website.</p>
+
+    
+
+    <script>
+      console.log("Hello from the console! 👋");
+
+      // let score = 100;
+      // if(score >=50){
+      //     const bonus =20;
+      //     console.log(score + bonus);
+      // }
+      // console.log(bonus);
+
+      // const PI = 3.14;
+      // PI = 5;
+      // console.log(PI);
+      // const user = {
+      //     name:"prince",
+      //     age:20
+      // }
+      // console.log(user);
+      // user.name = "rahul"
+      // console.log(user);
+
+      // function checkWeather(isRaining){
+      //     if(isRaining){
+      //         var msg = "qwerty";
+      //         console.log(msg);
+      //     }
+      //     console.log(msg);
+      // }
+      // // console.log(msg);
+
+      // checkWeather(true);
+
+      //hoisting
+      // console.log(a);
+      // let a =10;
+
+      // const s = "prince";
+      // const p =  s.slice(2,4)
+      // // console.log(s);
+
+      // let temp = 55;
+      // if (temp > 50) {
+      //   console.log("its very hot today ");
+      // } else if (temp > 25 && temp <= 50) {
+      //   console.log("temp is NICE");
+      // } else {
+      //   console.log("THANDI LG RHI H ");
+      // }
+      // let age = 22;
+
+      // Using a standard if-else statement
+      //   let canDrink;
+      //   if (age >= 21) {
+      //     canDrink = "Yes, you can have a drink.";
+      //   } else {
+      //     canDrink = "Sorry, you are not old enough.";
+      //   }
+
+      //   // Using the equivalent ternary operator
+      //   let canDrinkTernary =
+      //     age >= 21
+      //       ? "Yes, you can have a drink."
+      //       : "Sorry, you are not old enough.";
+
+      //   console.log(canDrinkTernary); // "Yes, you can have a drink."
+
+      //   let userRole = "admin";
+      //   switch (userRole) {
+      //     case "admin":
+      //       console.log("Full access granted");
+      //       break
+      //     case "editor":
+      //       console.log("Can write and edit content.");
+      //       break;
+      //     case "viewer":
+      //       console.log("Read-only access.");
+      //       break;
+      //     default:
+      //       console.log("Guest access. Please log in.");
+      //   }
+
+      //   for(let i=0; i<5; i++){
+      //     console.log("hello chacha");
+      //     if(i==2)break;
+      //   }
+
+      //   let diceRoll = 0;
+      //   // Keep "rolling" until a 6 is rolled
+      //   while (diceRoll !== 6) {
+      //     diceRoll = Math.floor(Math.random() * 6) + 1;
+      //     console.log(`You rolled a ${diceRoll}`);
+      //   }
+      //   console.log("You rolled a 6! You win!");
+
+      //     for (let i = 1; i <= 10; i++) {
+      //   // If the number is even, skip to the next iteration
+      //   if (i % 2 === 0) {
+      //     continue;
+      //   }
+
+      //   // If the number is 7, exit the loop completely
+      //   if (i === 7) {
+      //     console.log("Found 7! Exiting the loop.");
+      //     break;
+      //   }
+
+      //   // This will only run for odd numbers less than 7
+      //   console.log(i);
+
+      // }
+
+      //   console.log(greet());
+      //   function greet() {
+      //     return "good morning";
+      //   }
+      //   // console.log(greet());
+
+      //   // This would cause an error: TypeError: sayGoodbye is not a function
+      // //    sayGoodbye();
+
+      //   const sayGoodbye = function () {
+      //     console.log("Goodbye from a function expression!");
+      //   };
+
+      //   // You must call it after it's defined
+      //   sayGoodbye(); // "Goodbye from a function expression!".
+
+      //     const person1 = {
+      //         name:"prince",
+      //         age : 21,
+      //     }
+      //     const person2 = person1
+      //     person2.name  = "Rahull"
+      //     console.log(person1);
+      //     console.log(person2);
+
+      //   const numbers = [1, 2, 3, 4, 5];
+
+      // // forEach: Log each number
+      // numbers.forEach(num => console.log(num * 2)); // Logs 2, 4, 6, 8, 10
+
+      // // map: Create a new array of doubled numbers
+      // const doubled = numbers.map(num => num * 2);
+      // console.log(doubled); // [2, 4, 6, 8, 10]
+
+      // // filter: Create a new array of only even numbers
+      // const evens = numbers.filter(num => num % 2 === 0);
+      // console.log(evens); // [2, 4]
+
+      // // reduce: Sum all numbers
+      // const sum = numbers.reduce((accumulator, current) => accumulator + current, 0);
+      // console.log(sum); // 15
+
+      // // some: Is there at least one number greater than 4?
+      // const hasLargeNumber = numbers.some(num => num > 4);
+      // console.log(hasLargeNumber); // true
+
+      // // every: Are all numbers less than 6?
+      // const allSmallNumbers = numbers.every(num => num < 6);
+      // console.log(allSmallNumbers); // true
+
+      // const push = numbers.push(6);
+      // console.log(numbers);
+
+      // const pop = numbers.pop();
+      // console.log(numbers);
+
+      // const shift = numbers.shift();
+      // console.log(numbers);
+
+      // const unshift = numbers.unshift();
+      // console.log(numbers);
+
+      // const splice = numbers.splice(2,4)
+      // console.log(numbers);
+
+      // const letters = ['a', 'b', 'c', 'd', 'e'];
+
+      // const middle = letters.slice(1, 4); // ['b', 'c', 'd']
+      // const moreLetters = letters.concat(['f', 'g']); // ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+      // const asString = letters.join('-'); // "a-b-c-d-e"
+      // const hasC = letters.includes('c'); // true
+
+      // console.log(letters); // ['a', 'b', 'c', 'd', 'e'] (original is unchanged)
+
+      // function sum1(a, b, ...others){
+      //     let total = a+b;
+      //     for(const num in others){
+      //         total += num
+      //     }
+      //     console.log(total);
+
+      // }
+      // sum1(1,2,3,4,5);
+      // const obj = {
+      //     name : "prince",
+      //     age:21
+      // }
+      // const obj2 = new Object();
+      // obj2.name = "Prince",
+      // obj2.age = 21;
+      // console.log(obj);
+      // console.log(obj2);
+
+      // const numPrimitive = 42;         // primitive number
+      // const numWrapper = new Number(42); // wrapper object
+
+      // console.log(typeof numPrimitive); // "number"
+      // console.log(typeof numWrapper);   // "object"
+
+      // class Dog {
+      //   constructor(name) {
+      //     this.name = name;
+      //   }
+      //   bark() {
+      //     console.log(this.name, "Barking");
+      //   }
+      // }
+      // const dog1 = new Dog("Tommy");
+      // dog1.bark();
+
+      // class User {
+      //   constructor(firstName, lastName) {
+      //     this.firstName = firstName;
+      //     this.lastName = lastName;
+      //   }
+      //   get fullName() {
+      //     console.log("My Name is ", this.firstName, " ", this.lastName);
+      //   }
+      //   set fullName(newName) {
+      //     const [first, Last] = newName.split(" ");
+      //     this.firstName = first;
+      //     this.lastName = Last;
+      //   }
+      // }
+      // const user1 = new User("Prince", "Chouksey");
+
+      // const user2 = new User("rahul", "patel");
+
+      // console.log(user1.fullName);
+      // console.log(user2.fullName);
+
+      // user2.fullName = "Priyanshu Acharya";
+      // console.log(user2.fullName);
+
+      // // class BankAccount{
+      //     #balance = 0;
+      //     deposit(amount){
+      //         if(amount > 0)
+      //         this.#balance += amount;
+
+      //     }
+      //     withdrawl(amount){
+      //         if(amount < this.#balance){
+      //             this.#balance -=amount;
+      //         }
+      //     }
+      //     getBalance(){
+      //         return this.#balance;
+      //     }
+
+      // }
+      // const account = new BankAccount();
+      // account.deposit(5000);
+      // console.log(account.getBalance());
+      // account.withdrawl(2000);
+      // console.log(account.getBalance());
+      // console.log(account.#balance);
+
+      //       class Animal {
+      //         constructor(name) {
+      //           this.name = name;
+      //         }
+      //         speak() {
+      //           console.log(`${this.name} makes a noise. `);
+      //         }
+      //       }
+      //       class Cat extends Animal {
+      //         constructor(name, breed) {
+      //           super(name);
+      //           this.breed = breed;
+      //         }
+      //         purr() {
+      //           console.log(`${this.name} is purring.`);
+      //         }
+      //         speak() {
+      //           console.log(`${this.name} meows.`);
+      //         }
+      //       }
+
+      //       const myCat = new Cat("Whiskers", "Siamese");
+      //       myCat.speak(); // "Whiskers makes a noise." "Whiskers meows."
+      //       myCat.purr(); // "Whiskers is purring."
+
+
+    //   console.log("lets understanding the blocking code");
+    //   alert("this is an example of blocking code");
+    //   console.log("click ok to run this code ");
+
+
+
+    //  console.log("first");
+    // setTimeout(() => {
+    //     console.log("second");
+        
+    // },1000);
+    //  console.log("third ")
+
+
+ // localStorage.setItem("name","prince")
+ // localStorage.setItem("age", "21")
+ // localStorage.removeItem("age")
+
+  // Store a user's name for the current session
+//sessionStorage.setItem('username', 'Alice');
+
+// Store a temporary preference
+//sessionStorage.setItem('tempTheme', 'dark');
+
+// (function() {
+//   const secretMessage = "I am a secret.";
+//   console.log(secretMessage);
+// })();
+// // secretMessage is not accessible out here.
+
+// const today = new Date();
+//console.log(`Today is day ${today.getDate()} of month ${today.getMonth() + 1}.`);
+
+
+// const d = new Date();
+// console.log(d.toDateString());       // "Wed Oct 01 2025"
+// console.log(d.toLocaleDateString()); // "10/1/2025" (or format based on your locale)
+// console.log(d.toISOString());        // "2025-10-01T06:33:27.123Z" (UTC format)
+
+//     // Example: Validate a simple email format
+// const email = "test@example.com";
+// const emailRegex = /^\S+@\S+\.\S+$/; // A simple pattern for email
+
+// console.log(emailRegex.test(email)); // true
+// console.log(emailRegex.test("not-an-email")); // false
+
+// Example: Replace all vowels with 'X'
+// let sentence = "JavaScript is a powerful language.";
+// const vowelsRegex = /[aeiou]/gi; // Find all vowels (g), case-insensitively (i)
+
+// const newSentence = sentence.replace(vowelsRegex, "X");
+// console.log(newSentence); // "JXvXScrXpt Xs X pXwXrfXl lXngXXgX."
+
+// const arr = ["I" ,"Am", "Prince", "Chouksey"]
+// const newArr = arr.join("-")
+// console.log(newArr);
+
+//const tags  = new Set();
+// tags.add("js");
+// tags.add("js");
+// tags.add("html");
+// console.log(tags);
+
+// const userRoles = new Map();
+// const user1 = {Name:"prince" , age:21};
+// const user2 = {Name:"Priyanshu", age:21};
+// userRoles.set(user1, "Admin");
+// userRoles.set(user2, "User");
+// userRoles.set("Rahul", "Editor")
+// console.log(userRoles);
+// console.log(userRoles.has(user2)); 
+</script>
+  </body>
+</html>

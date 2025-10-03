@@ -1,0 +1,46 @@
+@use "mixins";
+@use "variables";
+@use "sass:color";
+
+.hero {
+  width: 98vw;
+  height: 95vh;
+  @include mixins.flex(center, center);
+  gap: 10em;
+  padding: 30px;
+
+  .hero1 {
+    width: 30%;
+    height: 80%;
+
+    h1 {
+      font-size: 3em;
+      line-height: -2;
+      color: variables.$primary;
+    }
+    h2 {
+      font-size: 3em;
+      line-height: 0.5;
+    }
+    button {
+      @include mixins.button(variables.$primary, variables.$white);
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 20px;
+
+      &:hover {
+         background-color: color.adjust(variables.$primary, $lightness: -15%);
+        transition: all ease 0.1s;
+      }
+    }
+  }
+  .hero2 {
+    width: 50%;
+    height: 90%;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

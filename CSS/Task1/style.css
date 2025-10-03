@@ -1,0 +1,532 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+body {
+  font-family: Arial, sans-serif;
+  background: #213a88;
+  color: #333;
+  line-height: 1.6;
+  padding: 15px 15px 15px 15px;
+  border-radius: 40px;
+}
+
+main {
+  background-color: #fff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav .lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7em;
+  list-style: none;
+}
+nav .lists a {
+  text-decoration: none;
+  color: #6d6c6c;
+}
+nav .button {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+.button #btn1 {
+  border: none;
+  font-size: 15px;
+  background-color: none;
+  background: none;
+  color: rgb(46, 78, 173);
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav .button #btn2 {
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px 42px;
+  font-weight: 500;
+  transition: 0.3s;
+  background-color: rgb(46, 78, 173);
+  border-radius: 40px;
+}
+nav .button #btn2:hover {
+  background-color: rgb(58, 88, 179);
+}
+#home {
+  position: relative;
+  color: rgb(4, 4, 4);
+}
+#cName {
+  color: #0a0a0a;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+#cName::before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(46, 78, 173);
+  left: -8%;
+  top: -15%;
+}
+nav .lists a:hover {
+  color: #000;
+  transition: ease 0.1s all;
+}
+#home::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero {
+  width: 98vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  padding: 30px;
+}
+.hero1 {
+  width: 30%;
+  height: 80%;
+  /* background-color: red; */
+}
+
+.hero2 {
+  width: 50%;
+  height: 90%;
+}
+.hero1 h1 {
+  font-size: 3em;
+  line-height: -2;
+  color: rgb(46, 78, 173);
+}
+.hero1 h2 {
+  font-size: 3em;
+  line-height: 0.5;
+}
+.hero1 button {
+  padding: 10px 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: rgb(46, 78, 173);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.hero1 button:hover {
+  background-color: rgb(33, 58, 136);
+  transition: all ease 0.1s;
+}
+.hero2 img {
+  object-fit: cover;
+  object-position: center;
+}
+.category {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  background-color: #eae7e7;
+}
+
+.category h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+.category-cards {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.category-card {
+  margin-top: 13px;
+  width: 25vw;
+  background-color: yellow;
+  height: 70vh;
+  /* border-radius: 20px; */
+  position: relative;
+}
+.category-card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3px;
+}
+.category-card h1 {
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  color: #000;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.trending {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+  padding: 50px;
+}
+
+.trending-vehicles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.trending-vehicles h3 {
+  font-size: 50px;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+.trending-vehicles button {
+  padding: 10px 24px;
+  font-size: 15px;
+  background-color: rgb(108, 142, 244);
+  border: none;
+  color: #000;
+}
+.trending-vehicles i {
+  padding-left: 5px;
+  font-size: 15px;
+}
+.trending-carts {
+  width: 100%;
+  height: 55vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  padding: 0px 30px 0px 30px;
+}
+.trending-cart {
+  position: relative;
+  width: 25vw;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: all ease 0.2s;
+  color: #000;
+}
+.trending-cart img {
+  padding: 15px;
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  object-position: center;
+}
+.trending-cart h1 {
+  padding: 5px;
+  padding-left: 15px;
+}
+.trending-cart .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+.trending-cart .price h3 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+  color: #000;
+}
+.trending-cart .price button {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  background-color: rgb(108, 142, 244);
+}
+.trending-cart:hover {
+  background-color: rgb(223, 231, 255);
+}
+
+.discount {
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  background-size: cover;
+  background-position: start;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 30px;
+}
+.tesla-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.discount .discount-heading {
+  padding: 50px;
+  position: absolute;
+}
+.discount .discount-heading h3 {
+  margin-top: 30px;
+  color: #060606;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.tesla-image {
+  width: 80%;
+  height: 50vh;
+  position: relative;
+  transform: translateX(-50%);
+  top: 50%;
+  left: 50%;
+}
+.discount .discount-heading button {
+  margin-top: 40px;
+  padding: 12px 24px;
+  color: #fff;
+  background-color: rgb(108, 142, 244);
+  border: none;
+  font-size: 18px;
+}
+
+.tesla-discount {
+  height: 40vh;
+  width: 250px;
+  /* background-color:rgb(108, 142, 244); */
+  position: absolute;
+  left: 70%;
+  top: 9%;
+  color: rgb(108, 142, 244);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  justify-content: center;
+  align-items: center;
+}
+.tesla-discount h1 {
+  font-size: 90px;
+  text-align: center;
+  line-height: 1;
+  padding: 10px;
+  font-weight: 600;
+  color: rgb(108, 142, 244);
+}
+.tesla-discount h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  padding-left: 20px;
+}
+
+
+.hamburger-menu {
+  display: none; 
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+/* REPONSIVE CSS */
+@media screen and (max-width:768px){
+  body{
+    padding: 10px;
+    border-radius: 0;
+  }
+  nav .lists{
+    display: none;
+    display: none; 
+    flex-direction: column;
+    gap: 1em;
+    background: #fff;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    margin: 10px; 
+  
+  }
+  .hamburger-menu{
+    display: flex;
+    
+  }
+   nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+    nav .lists.show{
+    display: flex;
+    background-color: #ffffff;
+    width: 94%;
+    z-index: 1000;
+    ul{
+      background-color: white;
+      
+    } 
+  }
+   nav .button {
+    gap: 1em;
+    padding: 5px;
+  }
+  .hero{
+    flex-direction: column;
+    gap: 2em;
+    padding: 20px;
+    height: auto;
+  }
+  .hero1, .hero2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .hero1 h1{
+    font-size: 2em;
+  }
+  .hero1 h2{
+    font-size: 1.5rem;
+  }
+ 
+  .hero2 img{
+    width: 100%;
+    height:auto;
+
+  }
+  .category{
+    padding: 15px;
+    height: auto;
+  }
+  .category h2{
+    font-size: 28px;
+    text-align: center;
+  }
+
+ .category-cards{
+  flex-direction: column;
+  gap: 1em;
+ }
+ .category-card{
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+ }
+ .trending{
+  height: auto;
+  padding: 10px;
+
+ }
+ .trending-vehicles{
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+  gap: 1em;
+ }
+ .trending-vehicles h3{
+  font-size: 28px;
+ }
+ .trending-carts{
+  height: auto;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0px;
+
+ }
+ .trending-cart{
+  width: 100%;
+  height: auto;
+ }
+ .discount{
+    height: auto;
+    padding: 20px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+.discount .discount-heading{
+  position: static;  
+  padding:10px;
+  order: 1; /
+
+}
+ .discount .discount-heading h3{
+  font-size: 28px;
+  color: #000;
+  margin-top: 0;
+ }
+ .discount .discount-heading button{
+  margin-top: 15px;
+ }
+ .tesla-image{
+  width: 100%;
+  height: auto;
+  top: auto;
+  left: auto;
+  transform: none;
+ }
+ .tesla-discount{
+  display: none;
+  
+ }
+  .tesla-discount h1 {
+    font-size: 50px;
+  }
+
+  .tesla-discount h4 {
+    font-size: 20px;
+    /* position: static; */
+  }
+
+
+
+
+}
+
+
