@@ -17,7 +17,7 @@ cells.forEach((cell) => {
         currentPlayer = currentPlayer == "X" ? "O" : "X";
         message.textContent = "Player " + currentPlayer + "'s Turn";
       }
-    }
+    }           
   });
 });
 
