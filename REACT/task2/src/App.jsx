@@ -27,7 +27,7 @@ const countries = {
 const skillsList = ["JavaScript", "Python", "React", "Node.js", "C++"];
 
 export default function DynamicForm() {
-  const { register, handleSubmit, watch, control, setValue } = useForm({
+  const { register, handleSubmit,  control, setValue } = useForm({
     defaultValues: {
       skills: []
     }
