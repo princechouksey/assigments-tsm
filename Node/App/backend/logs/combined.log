@@ -1,0 +1,510 @@
+2025-10-14T10:55:40.837Z [INFO] - Hello
+2025-10-14T10:55:53.105Z [INFO] - Hello
+2025-10-14T10:56:08.951Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:35.431Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:41.148Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:43.052Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:44.664Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:51.416Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:52.940Z [INFO] - listening on the Port 3000
+2025-10-14T10:56:52.959Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:29:29.226Z [INFO] - listening on the Port 3000
+2025-10-14T11:29:29.300Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:32:21.314Z [INFO] - listening on the Port 3000
+2025-10-14T11:32:21.329Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:33:13.803Z [INFO] - listening on the Port 3000
+2025-10-14T11:33:13.832Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:34:12.097Z [INFO] - listening on the Port 3000
+2025-10-14T11:34:12.122Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:34:17.766Z [INFO] - listening on the Port 3000
+2025-10-14T11:34:17.782Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:37:32.828Z [INFO] - listening on the Port 3000
+2025-10-14T11:37:32.844Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:37:37.859Z [INFO] - listening on the Port 3000
+2025-10-14T11:37:37.882Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:37:42.143Z [INFO] - listening on the Port 3000
+2025-10-14T11:37:42.163Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:37:45.078Z [INFO] - listening on the Port 3000
+2025-10-14T11:37:45.094Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:37:52.184Z [INFO] - listening on the Port 3000
+2025-10-14T11:37:52.216Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:38:00.520Z [INFO] - listening on the Port 3000
+2025-10-14T11:38:00.566Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:38:02.889Z [INFO] - listening on the Port 3000
+2025-10-14T11:38:02.904Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:38:13.091Z [INFO] - listening on the Port 3000
+2025-10-14T11:38:13.122Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:38:15.869Z [INFO] - listening on the Port 3000
+2025-10-14T11:38:15.887Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:38:48.815Z [INFO] - listening on the Port 3000
+2025-10-14T11:38:48.829Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:39:11.020Z [INFO] - listening on the Port 3000
+2025-10-14T11:39:11.045Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:39:42.538Z [INFO] - listening on the Port 3000
+2025-10-14T11:39:42.579Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:39:47.673Z [INFO] - listening on the Port 3000
+2025-10-14T11:39:47.692Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:40:31.634Z [INFO] - listening on the Port 3000
+2025-10-14T11:40:31.648Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:40:51.942Z [INFO] - listening on the Port 3000
+2025-10-14T11:40:51.957Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:41:22.618Z [INFO] - listening on the Port 3000
+2025-10-14T11:41:22.630Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:42:30.342Z [INFO] - listening on the Port 3000
+2025-10-14T11:42:30.358Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:42:47.685Z [INFO] - listening on the Port 3000
+2025-10-14T11:42:47.700Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:42:52.435Z [INFO] - listening on the Port 3000
+2025-10-14T11:42:52.465Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:43:01.442Z [INFO] - listening on the Port 3000
+2025-10-14T11:43:01.459Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:43:54.525Z [INFO] - listening on the Port 3000
+2025-10-14T11:43:54.541Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:44:34.356Z [INFO] - listening on the Port 3000
+2025-10-14T11:44:34.379Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:45:10.069Z [INFO] - listening on the Port 3000
+2025-10-14T11:45:10.090Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:45:11.610Z [INFO] - listening on the Port 3000
+2025-10-14T11:45:11.625Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:45:18.787Z [INFO] - listening on the Port 3000
+2025-10-14T11:45:18.805Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:45:25.514Z [INFO] - listening on the Port 3000
+2025-10-14T11:45:25.528Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:45:37.755Z [INFO] - listening on the Port 3000
+2025-10-14T11:45:37.771Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:45:39.984Z [INFO] - listening on the Port 3000
+2025-10-14T11:45:40.000Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:47:22.309Z [INFO] - listening on the Port 3000
+2025-10-14T11:47:22.324Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:48:35.405Z [INFO] - listening on the Port 3000
+2025-10-14T11:48:35.418Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:49:07.207Z [INFO] - listening on the Port 3000
+2025-10-14T11:49:07.225Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:49:33.825Z [INFO] - listening on the Port 3000
+2025-10-14T11:49:33.847Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:49:36.673Z [INFO] - listening on the Port 3000
+2025-10-14T11:49:36.688Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:49:49.906Z [INFO] - listening on the Port 3000
+2025-10-14T11:49:49.947Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:50:10.505Z [INFO] - listening on the Port 3000
+2025-10-14T11:50:10.520Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:50:16.491Z [INFO] - listening on the Port 3000
+2025-10-14T11:50:16.507Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:50:27.180Z [INFO] - listening on the Port 3000
+2025-10-14T11:50:27.213Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:50:31.383Z [INFO] - listening on the Port 3000
+2025-10-14T11:50:31.397Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:50:32.774Z [INFO] - listening on the Port 3000
+2025-10-14T11:50:32.830Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:50:38.530Z [INFO] - listening on the Port 3000
+2025-10-14T11:50:38.543Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:51:38.716Z [INFO] - listening on the Port 3000
+2025-10-14T11:51:38.734Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:51:42.255Z [INFO] - listening on the Port 3000
+2025-10-14T11:51:42.267Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:53:55.186Z [INFO] - listening on the Port 3000
+2025-10-14T11:53:55.206Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:53:58.917Z [INFO] - listening on the Port 3000
+2025-10-14T11:53:58.935Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:03.976Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:03.993Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:06.748Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:06.765Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:11.101Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:11.116Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:12.540Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:12.562Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:21.759Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:21.778Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:27.139Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:27.155Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:35.085Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:35.102Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T11:54:46.704Z [INFO] - listening on the Port 3000
+2025-10-14T11:54:46.725Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T12:57:09.968Z [INFO] - listening on the Port 3000
+2025-10-14T12:57:10.041Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:03:47.210Z [INFO] - listening on the Port 3000
+2025-10-14T13:03:47.221Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:03:54.903Z [INFO] - listening on the Port 3000
+2025-10-14T13:03:54.917Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:38:35.208Z [INFO] - listening on the Port 3000
+2025-10-14T13:38:35.271Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:27.096Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:27.115Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:31.496Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:31.519Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:39.607Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:39.621Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:43.270Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:43.285Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:47.104Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:47.116Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:53.561Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:53.578Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:41:57.356Z [INFO] - listening on the Port 3000
+2025-10-14T13:41:57.369Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:01.220Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:01.233Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:05.653Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:05.666Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:10.307Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:10.322Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:15.735Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:15.764Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:16.917Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:16.930Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:25.262Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:25.277Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:27.920Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:27.934Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:36.466Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:36.484Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:42.256Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:42.272Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:44.717Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:44.730Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:49.711Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:49.723Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:54.480Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:54.497Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:42:56.705Z [INFO] - listening on the Port 3000
+2025-10-14T13:42:56.718Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:43:00.977Z [INFO] - listening on the Port 3000
+2025-10-14T13:43:01.000Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:43:03.060Z [INFO] - listening on the Port 3000
+2025-10-14T13:43:03.076Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:43:09.740Z [INFO] - listening on the Port 3000
+2025-10-14T13:43:09.754Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:43:12.479Z [INFO] - listening on the Port 3000
+2025-10-14T13:43:12.493Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:43:16.336Z [INFO] - listening on the Port 3000
+2025-10-14T13:43:16.353Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:44:32.358Z [INFO] - listening on the Port 3000
+2025-10-14T13:44:32.372Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:45:26.417Z [INFO] - listening on the Port 3000
+2025-10-14T13:45:26.441Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:45:27.971Z [INFO] - listening on the Port 3000
+2025-10-14T13:45:27.985Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:51:35.887Z [INFO] - listening on the Port 3000
+2025-10-14T13:51:35.928Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:12.987Z [INFO] - Listening on the Port 3000
+2025-10-14T13:52:12.999Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:17.054Z [INFO] - Listening Sever  on the Port 3000
+2025-10-14T13:52:17.070Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:23.999Z [INFO] - Listening Serer  on the Port 3000
+2025-10-14T13:52:24.019Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:24.798Z [INFO] - Listening Server  on the Port 3000
+2025-10-14T13:52:24.812Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:28.717Z [INFO] - Listening to  Server  on the Port 3000
+2025-10-14T13:52:28.730Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:31.452Z [INFO] - Listening to  Server on the Port 3000
+2025-10-14T13:52:31.466Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:52:33.250Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:52:33.263Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:53:09.713Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:53:09.732Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:53:13.318Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:53:13.331Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:53:39.881Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:53:39.906Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:53:42.436Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:53:42.450Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:53:49.250Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:53:49.273Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:54:58.439Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:54:58.454Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:55:05.690Z [ERROR] - [POST] /user/login ➜ 500 - next is not defined
+ReferenceError: next is not defined
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:79:5)
+2025-10-14T13:55:28.773Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:55:28.787Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:55:34.604Z [ERROR] - [POST] /user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\node2\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:63:23)
+2025-10-14T13:56:04.666Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:56:04.682Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:56:32.232Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:56:32.248Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:56:51.222Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:56:51.234Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:13.207Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:13.225Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:21.643Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:21.656Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:28.014Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:28.029Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:34.398Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:34.420Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:39.496Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:39.515Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:46.584Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:46.605Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:50.727Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:50.750Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:57:59.340Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:57:59.363Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:59:54.965Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:59:54.983Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T13:59:57.277Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T13:59:57.291Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:00:28.120Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:00:28.138Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:00:34.519Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:00:34.537Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:00:40.445Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:00:40.477Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:00:41.469Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:00:41.485Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:00:44.991Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:00:45.012Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:01:25.407Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:01:25.426Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:01:26.276Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:01:26.293Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:01:32.535Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:01:32.547Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:02:20.214Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:02:20.246Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:01.378Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:01.391Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:03.475Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:03.489Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:08.352Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:08.367Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:18.188Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:18.208Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:31.331Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:31.350Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:40.514Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:40.530Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:47.199Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:47.224Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:52.305Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:52.318Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:54.369Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:54.384Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:03:58.620Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:03:58.636Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:13.271Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:13.298Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:15.685Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:15.704Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:21.278Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:21.299Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:25.328Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:25.345Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:26.645Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:26.658Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:28.653Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:28.666Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:35.324Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:35.339Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:36.953Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:36.968Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:40.306Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:40.325Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:47.643Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:47.665Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:49.722Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:49.737Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:56.938Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:56.951Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:04:58.215Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:04:58.229Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:05:03.743Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:05:03.757Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:06:33.996Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:06:34.009Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:06:34.966Z [ERROR] - Error while Loggin in the User secretOrPrivateKey must have a value
+2025-10-14T14:06:34.968Z [ERROR] - [POST] /user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\node2\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:63:23)
+2025-10-14T14:07:07.009Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:07:07.022Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:07:08.283Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:07:08.298Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:07:10.494Z [ERROR] - [POST] /user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\node2\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:63:23)
+2025-10-14T14:07:28.560Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:07:28.574Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:07:37.349Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:07:37.368Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:07:42.409Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:07:42.427Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:07:56.387Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:07:56.405Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:08:03.833Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:08:03.851Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:08:04.926Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:08:04.945Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T14:08:41.490Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T14:08:41.526Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:23:56.142Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:23:56.221Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:27:46.819Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:27:46.830Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:30:22.613Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:30:22.625Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:30:56.240Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:30:56.253Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:31:43.659Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:31:43.671Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:31:50.896Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:31:50.908Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:33:48.357Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:33:48.370Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:37:41.684Z [ERROR] - [POST] /api/user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:64:23)
+2025-10-14T19:40:31.195Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:40:31.209Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-14T19:41:07.812Z [ERROR] - [POST] /api/user/register ➜ 500 - E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+MongoServerError: E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+    at InsertOneOperation.handleOk (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\collection.js:154:16)
+2025-10-14T19:41:10.946Z [ERROR] - [POST] /api/user/register ➜ 500 - E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+MongoServerError: E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+    at InsertOneOperation.handleOk (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\collection.js:154:16)
+2025-10-14T19:48:51.122Z [ERROR] - [POST] /api/user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:64:23)
+2025-10-14T19:49:50.826Z [INFO] - Listening to Server on the Port 3000
+2025-10-14T19:49:50.845Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T10:43:20.211Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T10:43:20.280Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:05:31.729Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:05:31.766Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:11:32.374Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:11:32.390Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:16:10.319Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:16:10.334Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:23:09.329Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:23:09.341Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:28:25.994Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:28:26.018Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:33:38.279Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:33:38.294Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:34:00.167Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:34:00.195Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:36:03.644Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:36:03.676Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:36:05.843Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:36:05.873Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:36:11.574Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:36:11.601Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T11:39:42.300Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T11:39:42.322Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:00:54.145Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:00:54.162Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:00:57.174Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:00:57.192Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:01:00.590Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:01:00.612Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:01:07.365Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:01:07.397Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:10:48.436Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:10:48.465Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:10:50.149Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:10:50.170Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:18:13.825Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:18:13.856Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:20:31.742Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:20:31.760Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:22:57.825Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:22:57.846Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:23:00.179Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:23:00.201Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:35:50.098Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:35:50.121Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:36:15.127Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:36:15.142Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:36:39.508Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:36:39.533Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:37:06.506Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:37:06.522Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:37:08.027Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:37:08.051Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:37:44.273Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:37:44.294Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:38:06.831Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:38:06.848Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:38:08.574Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:38:08.599Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:39:25.855Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:39:25.879Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:39:57.040Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:39:57.070Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:40:00.404Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:40:00.439Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:40:02.489Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:40:02.515Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:40:10.045Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:40:10.068Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:42:41.980Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:42:42.006Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:42:48.557Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:42:48.576Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:42:55.274Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:42:55.295Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:43:13.670Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:43:13.690Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:46:12.503Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:46:12.529Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:46:24.703Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:46:24.744Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T12:46:26.642Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T12:46:26.663Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T13:57:38.028Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T13:57:38.063Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T13:58:00.032Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T13:58:00.066Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T13:58:04.613Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T13:58:04.644Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T13:58:06.498Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T13:58:06.536Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T13:58:30.289Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T13:58:30.320Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T14:40:34.542Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T14:40:34.581Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-15T17:57:56.675Z [INFO] - Listening to Server on the Port 3000
+2025-10-15T17:57:56.821Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T07:35:46.596Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T07:35:46.672Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T07:59:15.839Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T07:59:15.874Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T08:30:57.945Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T08:30:58.008Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T08:32:47.263Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T08:32:47.290Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T08:32:51.817Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T08:32:51.832Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T08:40:34.198Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T08:40:34.220Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T08:40:39.105Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T08:40:39.151Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T08:40:45.396Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T08:40:45.413Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T10:33:26.012Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T10:33:26.136Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-16T11:35:44.071Z [INFO] - Listening to Server on the Port 3000
+2025-10-16T11:35:44.145Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T05:28:39.456Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T05:28:39.574Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T06:15:44.271Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T06:15:44.301Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T07:44:06.482Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T07:44:06.561Z [INFO] - ✅ MongoDB Connected Successfully

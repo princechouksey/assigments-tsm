@@ -1,0 +1,38 @@
+2025-10-14T13:55:05.690Z [ERROR] - [POST] /user/login ➜ 500 - next is not defined
+ReferenceError: next is not defined
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:79:5)
+2025-10-14T13:55:34.604Z [ERROR] - [POST] /user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\node2\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:63:23)
+2025-10-14T14:06:34.966Z [ERROR] - Error while Loggin in the User secretOrPrivateKey must have a value
+2025-10-14T14:06:34.968Z [ERROR] - [POST] /user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\node2\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:63:23)
+2025-10-14T14:07:10.494Z [ERROR] - [POST] /user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\node2\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\node2\src\controllers\userController.js:63:23)
+2025-10-14T19:37:41.684Z [ERROR] - [POST] /api/user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:64:23)
+2025-10-14T19:41:07.812Z [ERROR] - [POST] /api/user/register ➜ 500 - E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+MongoServerError: E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+    at InsertOneOperation.handleOk (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\collection.js:154:16)
+2025-10-14T19:41:10.946Z [ERROR] - [POST] /api/user/register ➜ 500 - E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+MongoServerError: E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "prince.chouksey" }
+    at InsertOneOperation.handleOk (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\collection.js:154:16)
+2025-10-14T19:48:51.122Z [ERROR] - [POST] /api/user/login ➜ 500 - secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:64:23)
