@@ -508,3 +508,529 @@ Error: secretOrPrivateKey must have a value
 2025-10-17T06:15:44.301Z [INFO] - ✅ MongoDB Connected Successfully
 2025-10-17T07:44:06.482Z [INFO] - Listening to Server on the Port 3000
 2025-10-17T07:44:06.561Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T07:54:46.297Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T07:54:46.332Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T10:28:17.031Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T10:28:17.069Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T10:41:31.963Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T10:41:31.977Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T10:49:20.155Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T10:49:20.192Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:19:23.499Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:19:23.527Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:19:57.614Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:19:57.645Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:21:22.270Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:21:22.311Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:21:25.630Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:21:25.665Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:21:58.360Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:21:58.390Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:22:47.544Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:22:47.574Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:26:42.376Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:26:42.397Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:26:42.627Z [INFO] - Socket connected: emJhJuWR8SzGB1tOAAAB, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:26:43.316Z [INFO] - Socket connected: SByh4UDb6UWmUpX4AAAD, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:26:58.818Z [INFO] - Socket disconnected: SByh4UDb6UWmUpX4AAAD, User: sillu
+2025-10-17T11:26:59.073Z [INFO] - Socket connected: D7z21ze-zeWowp3AAAAF, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:27:51.117Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:27:51.144Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:27:51.319Z [INFO] - Socket connected: fiU9AOFCyCsu6I23AAAB, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:27:52.324Z [INFO] - Socket connected: emZhq2dHW2FOoQDhAAAD, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:27:59.679Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:27:59.701Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:27:59.833Z [INFO] - Socket connected: UubNrIXk2EqZiRW0AAAB, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:28:00.296Z [INFO] - Socket connected: -M9fv1NrTjef66IHAAAD, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:29:14.292Z [INFO] - Priyanshu left room Priyanshu_sillu
+2025-10-17T11:29:14.295Z [INFO] - Priyanshu joined room Priyanshu_sillu
+2025-10-17T11:29:14.303Z [INFO] - sillu left room Priyanshu_sillu
+2025-10-17T11:29:14.306Z [INFO] - sillu joined room Priyanshu_sillu
+2025-10-17T11:29:38.964Z [INFO] - sillu left room Priyanshu_sillu
+2025-10-17T11:29:38.966Z [INFO] - sillu joined room Priyanshu_sillu
+2025-10-17T11:29:39.308Z [INFO] - Priyanshu left room Priyanshu_sillu
+2025-10-17T11:29:39.311Z [INFO] - Priyanshu joined room Priyanshu_sillu
+2025-10-17T11:29:57.979Z [INFO] - Socket disconnected: UubNrIXk2EqZiRW0AAAB, User: Priyanshu
+2025-10-17T11:29:58.197Z [INFO] - Socket connected: WZ2Y7pBhVH9yXu3qAAAF, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:30:04.050Z [INFO] - Socket disconnected: -M9fv1NrTjef66IHAAAD, User: sillu
+2025-10-17T11:30:04.269Z [INFO] - Socket connected: F9qNg4coak6iZgmHAAAH, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:30:05.778Z [INFO] - sillu left room Priyanshu_sillu
+2025-10-17T11:30:05.797Z [INFO] - sillu joined room undefined
+2025-10-17T11:30:05.813Z [INFO] - sillu joined room undefined
+2025-10-17T11:30:16.755Z [INFO] - Priyanshu left room Priyanshu_sillu
+2025-10-17T11:30:16.765Z [INFO] - Priyanshu joined room undefined
+2025-10-17T11:30:16.767Z [INFO] - Priyanshu joined room undefined
+2025-10-17T11:32:21.735Z [INFO] - Socket disconnected: F9qNg4coak6iZgmHAAAH, User: sillu
+2025-10-17T11:32:22.076Z [INFO] - Socket connected: lYznyLlYPBPrGyc8AAAJ, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:32:22.085Z [INFO] - sillu joined room undefined
+2025-10-17T11:32:22.086Z [INFO] - sillu joined room undefined
+2025-10-17T11:32:23.797Z [INFO] - Socket disconnected: WZ2Y7pBhVH9yXu3qAAAF, User: Priyanshu
+2025-10-17T11:32:24.174Z [INFO] - Socket connected: WEJgxF9gmShg7ONcAAAL, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:32:24.175Z [INFO] - Priyanshu joined room undefined
+2025-10-17T11:32:24.177Z [INFO] - Priyanshu joined room undefined
+2025-10-17T11:33:07.124Z [INFO] - Socket disconnected: WEJgxF9gmShg7ONcAAAL, User: Priyanshu
+2025-10-17T11:33:11.015Z [INFO] - sillu joined room Priyanshu_sillu
+2025-10-17T11:33:12.103Z [INFO] - Socket disconnected: lYznyLlYPBPrGyc8AAAJ, User: sillu
+2025-10-17T11:33:12.281Z [INFO] - Socket connected: gkOGFmGejAkMxCtpAAAN, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:33:12.282Z [INFO] - sillu joined room Priyanshu_sillu
+2025-10-17T11:36:14.773Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:36:14.808Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:36:14.898Z [INFO] - Socket connected: KmyYfL6Le636x_z9AAAB, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:36:19.739Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:36:19.771Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:36:20.316Z [INFO] - Socket connected: 6xjGh92quJzHXZR4AAAB, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:36:25.156Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:36:25.179Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:36:26.329Z [INFO] - Socket connected: zic_hRX9gjIWb6YXAAAB, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:36:37.808Z [INFO] - Socket connected: mBK04uEXbYissOGQAAAD, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:36:43.556Z [INFO] - sillu left room Priyanshu_sillu
+2025-10-17T11:36:43.559Z [INFO] - sillu joined room undefined
+2025-10-17T11:36:43.562Z [INFO] - sillu joined room undefined
+2025-10-17T11:37:02.678Z [INFO] - sillu joined room Priyanshu_sillu
+2025-10-17T11:37:05.008Z [INFO] - Socket disconnected: zic_hRX9gjIWb6YXAAAB, User: sillu
+2025-10-17T11:37:05.263Z [INFO] - Socket connected: 4LaWe229Mm2EeLAsAAAF, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:37:29.393Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:37:29.433Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:37:29.523Z [INFO] - Socket connected: MizKC7u3EDIA10o1AAAC, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:37:29.550Z [INFO] - Socket connected: TodNENwUPeF_EUi5AAAD, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:38:29.383Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:38:29.445Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:38:29.462Z [INFO] - Socket connected: 02CVCGXzeXwp9fANAAAB, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:38:29.493Z [INFO] - Socket connected: khz_M2VmCaTVj8PJAAAD, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:38:32.479Z [INFO] - sillu left room Priyanshu_sillu
+2025-10-17T11:38:32.482Z [INFO] - sillu joined room undefined
+2025-10-17T11:38:32.485Z [INFO] - sillu joined room undefined
+2025-10-17T11:38:42.593Z [INFO] - sillu joined room Priyanshu_sillu
+2025-10-17T11:38:44.183Z [INFO] - Socket disconnected: khz_M2VmCaTVj8PJAAAD, User: sillu
+2025-10-17T11:38:44.468Z [INFO] - Socket connected: jXQcBBqFIf1e6pEIAAAF, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:39:25.758Z [INFO] - Listening to Server on the Port 3000
+2025-10-17T11:39:25.783Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-17T11:39:26.223Z [INFO] - Socket connected: zcwfUvl9D5ZSNONAAAAB, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:39:26.305Z [INFO] - Socket connected: r9NJGIsaTcM3RPcxAAAD, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:42:03.816Z [INFO] - sillu left room Priyanshu_sillu
+2025-10-17T11:42:03.821Z [INFO] - sillu joined room undefined
+2025-10-17T11:42:03.826Z [INFO] - sillu joined room undefined
+2025-10-17T11:42:22.810Z [INFO] - Socket disconnected: zcwfUvl9D5ZSNONAAAAB, User: Priyanshu
+2025-10-17T11:42:22.937Z [INFO] - Socket connected: -o2Q5F2mIcpDtt3CAAAF, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:42:24.889Z [INFO] - Socket disconnected: r9NJGIsaTcM3RPcxAAAD, User: sillu
+2025-10-17T11:42:25.269Z [INFO] - Socket connected: MXmtFNZMmuha561DAAAH, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:42:25.271Z [INFO] - sillu joined room undefined
+2025-10-17T11:42:25.272Z [INFO] - sillu joined room undefined
+2025-10-17T11:42:26.685Z [INFO] - Socket disconnected: MXmtFNZMmuha561DAAAH, User: sillu
+2025-10-17T11:42:27.072Z [INFO] - Socket connected: SIVX2mtvkY7U0DziAAAJ, User: sillu (68efa957599d3b8a8f55f7a9)
+2025-10-17T11:42:42.149Z [INFO] - Socket disconnected: -o2Q5F2mIcpDtt3CAAAF, User: Priyanshu
+2025-10-17T11:42:42.300Z [INFO] - Socket connected: sBKnewXvE3GXTdgPAAAL, User: Priyanshu (68efa969599d3b8a8f55f7ac)
+2025-10-17T11:44:15.709Z [INFO] - Socket disconnected: SIVX2mtvkY7U0DziAAAJ, User: sillu
+2025-10-17T11:44:18.180Z [INFO] - Socket disconnected: sBKnewXvE3GXTdgPAAAL, User: Priyanshu
+2025-10-22T06:44:05.594Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T06:44:05.686Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:20:34.050Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:20:34.126Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:21:34.583Z [ERROR] - [POST] /api/user/register ➜ 500 - ENOENT: no such file or directory, open 'C:\uploads\undefined_1761117694581.png'
+Error: ENOENT: no such file or directory, open 'C:\uploads\undefined_1761117694581.png'
+2025-10-22T07:24:51.346Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:24:51.385Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:24:56.277Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:24:56.302Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:24:58.603Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:24:58.626Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:25:00.702Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:25:00.722Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:25:03.820Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:25:03.840Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:25:05.614Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:25:05.636Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:26:08.758Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:26:08.772Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:26:39.700Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'path')
+TypeError: Cannot read properties of undefined (reading 'path')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:24:29)
+2025-10-22T07:26:57.559Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:26:57.613Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:27:20.710Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:27:20.728Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:27:21.944Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'path')
+TypeError: Cannot read properties of undefined (reading 'path')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:25:29)
+2025-10-22T07:27:32.855Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:27:32.925Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:27:34.213Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T07:27:34.233Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T07:27:35.610Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'path')
+TypeError: Cannot read properties of undefined (reading 'path')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:25:29)
+2025-10-22T09:13:04.082Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:13:04.180Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:15:41.273Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:16:27.753Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:16:27.805Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:16:40.985Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:16:41.045Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:19:27.162Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:23:37.439Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:23:40.003Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:23:53.260Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:23:53.310Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:23:53.982Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:24:38.369Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:24:41.085Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:25:57.272Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:25:57.294Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:26:25.299Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:26:25.343Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:26:29.167Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:26:33.373Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:26:36.044Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:28:12.574Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:28:12.609Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:28:22.671Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:28:22.722Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:28:27.851Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:30:35.664Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:31:23.546Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:32:43.584Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:32:43.638Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:32:51.816Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:32:51.871Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:32:53.522Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:32:53.554Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:33:07.613Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:34:17.597Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:39:09.714Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:39:09.818Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:39:12.262Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:39:12.347Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:40:02.039Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:40:56.622Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:41:03.400Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:42:02.879Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:42:02.907Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:42:10.962Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:42:11.001Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:42:13.153Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:42:13.199Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:42:18.090Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:42:18.116Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:42:33.462Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:43:07.788Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:43:07.839Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:43:10.018Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:43:42.226Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:43:42.249Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:43:47.764Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:43:57.730Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:43:57.795Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:44:04.560Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:44:04.609Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:44:08.839Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:44:08.863Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:44:10.905Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:44:10.934Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:44:13.928Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:44:52.276Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:44:52.321Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:44:58.567Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:44:58.603Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T09:45:01.310Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T09:45:01.353Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:14:50.970Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:15:10.770Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:15:10.886Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:15:16.336Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:16:34.005Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:21:43.410Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:21:43.471Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:21:45.553Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:21:45.600Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:21:47.401Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:21:47.457Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:21:48.951Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:21:49.002Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:22:03.697Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:22:03.725Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:22:12.832Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:22:12.856Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:22:24.328Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:30:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-22T10:22:48.557Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:22:48.613Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:22:52.327Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:22:52.380Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:23:12.021Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:33:17)
+2025-10-22T10:23:32.193Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:33:17)
+2025-10-22T10:24:03.801Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:24:03.828Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:24:16.388Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:24:16.427Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:24:28.588Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:24:28.609Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:29.583Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:29.610Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:35.512Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:35.549Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:37.723Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:37.754Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:44.441Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:44.486Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:49.872Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:49.924Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:53.290Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:53.315Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:25:59.154Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:25:59.221Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:26:02.967Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:26:03.020Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:26:04.820Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:26:04.858Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:26:34.151Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:34:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-22T10:28:24.507Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:28:24.545Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:28:26.452Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:28:26.479Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:28:56.360Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:28:56.445Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:28:57.953Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:28:57.987Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:29:24.849Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'url')
+TypeError: Cannot read properties of undefined (reading 'url')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:42:27)
+2025-10-22T10:30:09.017Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:30:09.073Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:30:21.728Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:30:21.761Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:30:26.012Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:30:46.880Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:30:46.906Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:34:29.644Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:34:29.676Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:35:25.069Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:43:23.245Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:43:23.270Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:43:38.084Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:46:35.872Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:46:35.906Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:46:48.155Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:46:48.182Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:47:03.867Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:47:39.901Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:47:39.923Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:47:47.696Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:47:47.719Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:48:15.276Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:51:26.981Z [ERROR] - [POST] /api/user/register ➜ 500 - socket hang up
+Error: socket hang up
+    at AxiosError.from (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\axios\dist\node\axios.cjs:905:14)
+    at RedirectableRequest.handleRequestError (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\axios\dist\node\axios.cjs:3326:25)
+    at RedirectableRequest.emit (node:events:518:28)
+    at eventHandlers.<computed> (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\axios\dist\node\axios.cjs:4483:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-22T10:51:41.876Z [INFO] - Listening to Server on the Port 3000
+2025-10-22T10:51:41.909Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-22T10:51:59.507Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:54:17.545Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-23T17:21:45.691Z [INFO] - Listening to Server on the Port 3000
+2025-10-23T17:21:45.832Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-23T17:22:48.022Z [ERROR] - [POST] /api/user/register? ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-23T17:28:02.667Z [INFO] - Listening to Server on the Port 3000
+2025-10-23T17:28:02.710Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-23T17:30:50.833Z [INFO] - Listening to Server on the Port 3000
+2025-10-23T17:30:50.862Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-23T17:30:52.206Z [INFO] - Listening to Server on the Port 3000
+2025-10-23T17:30:52.250Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-23T17:30:58.904Z [INFO] - Listening to Server on the Port 3000
+2025-10-23T17:30:58.934Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-23T17:31:03.187Z [INFO] - Listening to Server on the Port 3000
+2025-10-23T17:31:03.219Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T07:51:28.342Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T07:51:28.464Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:05:05.216Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:05:05.245Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:05:13.531Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:05:13.550Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:05:17.579Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:05:17.595Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:05:22.687Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:05:22.703Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:05:34.591Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:05:34.621Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:06:54.314Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:06:54.333Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:06:56.235Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T08:06:56.255Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T08:14:37.294Z [ERROR] - [POST] /api/user/register ➜ 500 - E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "ram12" }
+MongoServerError: E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "ram12" }
+    at InsertOneOperation.handleOk (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\collection.js:154:16)
+2025-10-24T08:15:39.028Z [ERROR] - [POST] /api/user/register ➜ 500 - Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+2025-10-24T14:33:28.934Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T14:33:28.993Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T14:41:03.346Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T14:41:03.395Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T14:44:37.589Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T14:44:37.638Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T14:45:32.648Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T14:45:32.678Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T14:45:37.822Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T14:45:37.888Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:03:21.168Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:03:21.347Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:09:46.888Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:09:46.933Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:09:50.510Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:09:50.547Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:10:01.995Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:10:02.032Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:10:16.619Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:10:16.651Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:10:38.121Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:10:38.153Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:10:54.899Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:10:54.926Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:13:35.874Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:13:35.908Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:13:42.570Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:13:42.611Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:13:45.787Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:13:45.818Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:47:22.061Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:47:22.157Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:47:26.255Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:47:26.295Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:47:28.067Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:47:28.095Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:47:31.146Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:47:31.214Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T15:48:39.118Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T15:48:39.143Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:30:36.295Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:30:36.411Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:30:56.629Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:30:56.673Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:30:59.013Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:30:59.047Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:31:07.803Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:31:07.840Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:31:16.219Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:31:16.246Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:31:51.727Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:31:51.768Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:32:07.118Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:32:07.143Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:34:27.493Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:34:27.533Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:34:40.716Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:34:40.753Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:34:57.399Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:34:57.462Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:01.586Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:01.624Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:06.617Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:06.662Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:12.256Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:12.290Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:18.405Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:18.469Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:25.645Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:25.691Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:26.853Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:26.890Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:41.560Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:41.594Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:48.706Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:48.755Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:49.901Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:49.935Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:54.974Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:55.009Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:35:59.307Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:35:59.342Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:37:59.192Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:37:59.234Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:38:09.721Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:38:09.760Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:38:37.654Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:38:37.696Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:43:57.470Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:43:57.510Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:45:14.745Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:45:14.794Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:45:28.472Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:45:28.515Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:45:38.775Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:45:38.800Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:46:00.262Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:46:00.285Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:46:02.118Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:46:02.144Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:46:31.124Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:46:31.163Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:46:31.525Z [INFO] - ✅ Connected to Redis Cloud successfully
+2025-10-24T20:46:40.419Z [INFO] - Listening to Server on the Port 3000
+2025-10-24T20:46:40.458Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:46:41.153Z [INFO] - ✅ Connected to Redis Cloud successfully
+2025-10-24T20:46:57.413Z [INFO] - ✅ Listening to Server on the Port 3000
+2025-10-24T20:46:57.449Z [INFO] - ✅ MongoDB Connected Successfully
+2025-10-24T20:46:57.769Z [INFO] - ✅ Connected to Redis Cloud successfully

@@ -223,4 +223,3 @@ const VideoChat = () => {
 };
 
 export default VideoChat;
-

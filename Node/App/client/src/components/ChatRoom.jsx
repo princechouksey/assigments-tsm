@@ -1,8 +1,6 @@
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import socket from "../socket";
-import axios from "../API/axiosConfig";
 import { useNavigate, useParams } from "react-router-dom";
-
 export default function ChatRoom() {
   const navigate = useNavigate()
   const { roomId } = useParams() 
@@ -15,17 +13,24 @@ export default function ChatRoom() {
  
 useEffect(() => {
   const user = localStorage.getItem("user");
-  setCurrentUser(user)  
+  if(user){
+      setCurrentUser(user)  
+  }
+  else{
+    navigate("/login")
+  }
 }
-, [])
+, [navigate])
 
 
 const startVideoChat = ()=>{
   navigate(`/video-chat/${roomId}`)
 }
-const friend  =currentUser === roomId.split("_")[1] ? roomId.split("_")[0]:roomId.split("_")[1];
-console.log(friend);
- 
+const friend = useMemo(() => {
+        if (!currentUser || !roomId) return null;
+        const parts = roomId.split("_");
+        return currentUser === parts[1] ? parts[0] : parts[1];
+    }, [currentUser, roomId]); 
 
 
 
@@ -92,7 +97,6 @@ console.log(friend);
       });
     }, 1000);
   };
-
   return (
     <div className="flex flex-col w-full max-w-2xl mx-auto bg-gray-900 text-white rounded-2xl shadow-lg overflow-hidden h-[100vh]">
       {/* Header */}
@@ -164,4 +168,4 @@ console.log(friend);
       </div>
     </div>
   );
-}
+}  

@@ -39,6 +39,8 @@ const userSchema = mongoose.Schema(
       unique: true,
       sparse: true, // allows null values
     },
+    profileImage :String
+
   },
   {
     timestamps: true,

@@ -36,3 +36,130 @@ MongoServerError: E11000 duplicate key error collection: node2.users index: user
 Error: secretOrPrivateKey must have a value
     at module.exports [as sign] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\jsonwebtoken\sign.js:111:20)
     at module.exports.loginUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:64:23)
+2025-10-22T07:21:34.583Z [ERROR] - [POST] /api/user/register ➜ 500 - ENOENT: no such file or directory, open 'C:\uploads\undefined_1761117694581.png'
+Error: ENOENT: no such file or directory, open 'C:\uploads\undefined_1761117694581.png'
+2025-10-22T07:26:39.700Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'path')
+TypeError: Cannot read properties of undefined (reading 'path')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:24:29)
+2025-10-22T07:27:21.944Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'path')
+TypeError: Cannot read properties of undefined (reading 'path')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:25:29)
+2025-10-22T07:27:35.610Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'path')
+TypeError: Cannot read properties of undefined (reading 'path')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:25:29)
+2025-10-22T09:15:41.273Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:19:27.162Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:23:37.439Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:23:40.003Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:23:53.982Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:24:38.369Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:24:41.085Z [ERROR] - [POST] /api/user/register ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-22T09:26:29.167Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:26:33.373Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:26:36.044Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:28:27.851Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:30:35.664Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:31:23.546Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:33:07.613Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:34:17.597Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:40:02.039Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:40:56.622Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:41:03.400Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:42:33.462Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:43:10.018Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:43:47.764Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T09:44:13.928Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:14:50.970Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:15:16.336Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:16:34.005Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:22:24.328Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:30:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-22T10:23:12.021Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:33:17)
+2025-10-22T10:23:32.193Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:33:17)
+2025-10-22T10:26:34.151Z [ERROR] - [POST] /api/user/register ➜ 500 - result is not defined
+ReferenceError: result is not defined
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:34:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-22T10:29:24.849Z [ERROR] - [POST] /api/user/register ➜ 500 - Cannot read properties of undefined (reading 'url')
+TypeError: Cannot read properties of undefined (reading 'url')
+    at module.exports.registerUserController (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\src\controllers\userController.js:42:27)
+2025-10-22T10:30:26.012Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:35:25.069Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:43:38.084Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:47:03.867Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:48:15.276Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:51:26.981Z [ERROR] - [POST] /api/user/register ➜ 500 - socket hang up
+Error: socket hang up
+    at AxiosError.from (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\axios\dist\node\axios.cjs:905:14)
+    at RedirectableRequest.handleRequestError (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\axios\dist\node\axios.cjs:3326:25)
+    at RedirectableRequest.emit (node:events:518:28)
+    at eventHandlers.<computed> (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\axios\dist\node\axios.cjs:4483:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-22T10:51:59.507Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-22T10:54:17.545Z [ERROR] - [POST] /api/user/register ➜ 500 - Internal Server Error
+undefined
+2025-10-23T17:22:48.022Z [ERROR] - [POST] /api/user/register? ➜ 500 - Your account cannot be authenticated.
+undefined
+2025-10-24T08:14:37.294Z [ERROR] - [POST] /api/user/register ➜ 500 - E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "ram12" }
+MongoServerError: E11000 duplicate key error collection: node2.users index: username_1 dup key: { username: "ram12" }
+    at InsertOneOperation.handleOk (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at tryOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:214:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async Collection.insertOne (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\mongodb\lib\collection.js:154:16)
+2025-10-24T08:15:39.028Z [ERROR] - [POST] /api/user/register ➜ 500 - Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\HP\Desktop\Assignments TSM\Node\App\backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)

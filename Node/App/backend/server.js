@@ -21,5 +21,5 @@ initSocket(server, CLIENT_URL, JWT_SECRET);
 
 
 server.listen(PORT, ()=>{
-    logger.info(`Listening to Server on the Port ${PORT}`);
+    logger.info(`✅ Listening to Server on the Port ${PORT}`);
 })

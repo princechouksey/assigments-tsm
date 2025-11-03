@@ -1,0 +1,303 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// -------------------------------------------
+// Enums
+// -------------------------------------------
+
+enum UserRole {
+  MEMBER
+  LIBRARIAN // This role can be treated as Admin in your app logic
+}
+
+enum BookCopyStatus {
+  AVAILABLE
+  ON_LOAN
+  RESERVED
+  MAINTENANCE
+  LOST
+}
+
+enum ReservationStatus {
+  PENDING // User is waiting for a copy
+  READY_FOR_PICKUP // A copy is on hold for the user
+  COMPLETED // User picked up the book
+  CANCELLED // User or staff cancelled
+}
+
+enum FineStatus {
+  OUTSTANDING
+  PAID
+  WAIVED
+}
+
+enum FineType {
+  OVERDUE
+  DAMAGE
+  LOST_BOOK
+}
+
+// Updated based on your clarification for study rooms
+enum ResourceType {
+  STUDY_ROOM
+  COMPUTER_LAB
+  MEETING_ROOM
+  EQUIPMENT // e.g., 3D Printer
+}
+
+enum NotificationMethod {
+  EMAIL
+  SMS
+}
+
+enum NotificationType {
+  LOAN_DUE_REMINDER
+  LOAN_OVERDUE
+  RESERVATION_READY
+  FINE_ISSUED
+  BOOKING_CONFIRMED
+  BOOKING_REMINDER
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String?
+  password  String // Will be hashed by the auth service
+  role      UserRole @default(MEMBER)
+  isActive  Boolean  @default(true) // For soft deletes
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  loans         Loan[]
+  reservations  Reservation[]
+  fines         Fine[]
+  payments      Payment[]
+  bookings      Booking[] // For study room slots
+  notifications NotificationLog[]
+
+  @@map("users")
+}
+
+// -------------------------------------------
+// Module: catalog
+// -------------------------------------------
+
+// The abstract book (e.g., "Dune")
+model Book {
+  id              Int      @id @default(autoincrement())
+  title           String
+  isbn            String   @unique
+  publisher       String?
+  publicationYear Int?
+  description     String?
+  coverImageUrl   String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Many-to-Many with Author
+  authors Author[]
+
+  // Many-to-Many with Genre
+  genres Genre[]
+
+  // One-to-Many: A book has many physical copies
+  copies BookCopy[]
+
+  // One-to-Many: A book has many reservations
+  reservations Reservation[]
+
+  @@map("books")
+}
+
+// A physical copy of a book with a unique barcode
+model BookCopy {
+  id         Int            @id @default(autoincrement())
+  // This would be the physical barcode number
+  barcode    String         @unique
+  status     BookCopyStatus @default(AVAILABLE)
+  callNumber String? // Dewey Decimal, etc.
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  // Relation back to the abstract book
+  bookId     Int
+  book       Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  // A copy can be loaned many times (history)
+  loans Loan[]
+
+  @@map("book_copies")
+}
+
+model Author {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  // Many-to-Many with Book
+  books Book[]
+
+  @@map("authors")
+}
+
+model Genre {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  // Many-to-Many with Book
+  books Book[]
+
+  @@map("genres")
+}
+
+// -------------------------------------------
+// Module: circulation & checkout
+// (Checkout module will use these models)
+// -------------------------------------------
+
+model Loan {
+  id         Int       @id @default(autoincrement())
+  loanedAt   DateTime  @default(now())
+  dueDate    DateTime
+  returnedAt DateTime? // Null if not yet returned
+
+  // Relation to the User
+  userId     Int
+  user       User @relation(fields: [userId], references: [id], onDelete: Restrict) // FIXED: PascalCase
+
+  // Relation to the specific BookCopy
+  bookCopyId Int
+  bookCopy   BookCopy @relation(fields: [bookCopyId], references: [id], onDelete: Restrict) //FIXED: PascalCase
+
+  // Relation to any fine issued for this loan
+  fine Fine? @relation("LoanFineRelation") // FIXED: Added matching relation name
+  @@map("loans")
+}
+
+model Reservation {
+  id         Int               @id @default(autoincrement())
+  reservedAt DateTime          @default(now())
+  status     ReservationStatus @default(PENDING)
+  expiresAt  DateTime? // When a "READY_FOR_PICKUP" hold expires
+
+  // Relation to the User
+  userId     Int
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Relation to the abstract Book (not a specific copy)
+  bookId     Int
+  book       Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  // A user can only reserve the same book once at a time
+  // (if their current reservation isn't completed/cancelled)
+  @@unique([userId, bookId, status])
+  @@map("reservations")
+}
+
+// -------------------------------------------
+// Module: fines
+// -------------------------------------------
+
+model Fine {
+  id        Int        @id @default(autoincrement())
+  amount    Decimal    @db.Decimal(10, 2) // e.g., 12.50
+  reason    FineType
+  status    FineStatus @default(OUTSTANDING)
+  issuedAt  DateTime   @default(now())
+
+  // Relation to the User who owes
+  userId    Int
+  user      User @relation(fields: [userId], references: [id], onDelete: Restrict) //FIXED: PascalCase
+
+  // Relation to the Loan that caused the fine (if any)
+  loanId    Int?  @unique // A loan can only have one fine
+  loan      Loan? @relation("LoanFineRelation", fields: [loanId], references: [id], onDelete: SetNull) //FIXED: PascalCase
+
+  // A fine can have multiple payments
+  payments Payment[]
+
+  @@map("fines")
+}
+
+model Payment {
+  id     Int      @id @default(autoincrement())
+  amount Decimal  @db.Decimal(10, 2)
+  paidAt DateTime @default(now())
+  method String // e.g., "CASH", "CARD_ONLINE", "CARD_COUNTER"
+
+  // Relation to the User who paid
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Restrict) //FIXED: PascalCase
+
+  // Relation to the Fine being paid
+  fineId Int
+  fine   Fine @relation(fields: [fineId], references: [id], onDelete: Restrict) //FIXED: PascalCase
+
+  @@map("payments")
+}
+
+
+// -------------------------------------------
+// Module: resources (Study Room Bookings)
+// -------------------------------------------
+
+model Resource {
+  id         Int          @id @default(autoincrement())
+  name       String       @unique // e.g., "Study Room 3A", "Main Library - PC 12"
+  type       ResourceType
+  capacity   Int? // e.g., 4 (for a room)
+  location   String? // e.g., "3rd Floor, Silent Area"
+  isBookable Boolean      @default(true)
+
+  // Relation to bookings
+  bookings Booking[]
+
+  @@map("resources")
+}
+
+// This model represents a booked time slot
+model Booking {
+  id        Int      @id @default(autoincrement())
+  startTime DateTime
+  endTime   DateTime
+  createdAt DateTime @default(now())
+
+  // Relation to the User
+  userId    Int
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Relation to the Resource
+  resourceId Int
+  resource   Resource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+
+  // Your service logic will check for overlapping times before creating a new booking.
+  // A unique constraint isn't ideal for time ranges, so it's handled in code.
+  @@map("bookings")
+}
+
+// -------------------------------------------
+// Module: notifications
+// -------------------------------------------
+
+model NotificationLog {
+  id     Int                @id @default(autoincrement())
+  method NotificationMethod
+  type   NotificationType
+  sentAt DateTime           @default(now())
+  content String
+
+  // Relation to the User
+  userId Int
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notification_logs")
+}
+

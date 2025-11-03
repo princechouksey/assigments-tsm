@@ -5,9 +5,11 @@ const passport = require("passport");
 const router = express.Router();
 const jwt = require("jsonwebtoken");
 const User = require("../models/userModel");
+const upload = require("../services/multer")
 
 
-router.post("/register", registerUserController);
+
+router.post("/register",upload.single("profileImage") ,registerUserController);
 router.post("/login", loginUserController);
 router.get("/logout",authMiddleware, logoutUserController);
 router.get("/me", authMiddleware, getCurrentUserController);
