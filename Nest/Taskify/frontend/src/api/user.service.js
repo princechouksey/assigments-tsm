@@ -1,12 +1,13 @@
 import axios from "../api/axios";
 import toast from "react-hot-toast";
 
-const handleRequest = async (promise, successMessage) => {
+// 🧾 Signup
+export const signup = async (data) => {
   try {
-    const res = await promise;
-    if (successMessage) toast.success(successMessage);
-    console.log(res.data);
-    return res.data;
+    const res = await axios.post("/auth/register", data);
+    toast.success("Registration successful!");
+    // backend wraps responses as { success, timestamp, data }
+    return res.data?.data;
   } catch (err) {
     const message =
       err?.response?.data?.message || "Something went wrong. Please try again.";
@@ -15,14 +16,49 @@ const handleRequest = async (promise, successMessage) => {
   }
 };
 
-export const singup = (data) =>
-  handleRequest(axios.post("/auth/register", data), "Registration successful!");
+// 🔑 Login
+export const login = async (data) => {
+  try {
+    const res = await axios.post("/auth/login", data);
+    const payload = res.data?.data;
+    const token = payload?.token;
+    if (token) localStorage.setItem("token", token);
+    toast.success("Login successful!");
+    return payload;
 
-export const login = (data) =>
-  handleRequest(axios.post("/auth/login", data), "Login successful!");
+  } catch (err) {
+    const message =
+      err?.response?.data?.message || "Invalid credentials or server error.";
+    toast.error(message);
+    throw err;
+  }
+};
 
-export const profile = () =>
-  handleRequest(axios.get("/user/me"));
+// 👤 Get User Profile
+export const profile = async () => {
+  try {
+    const res = await axios.get("/user/me");
+    return res.data?.data;
 
-export const update = (data) =>
-  handleRequest(axios.patch("/user/update", data), "Profile updated successfully!");
+  } catch (err) {
+    const message =
+      err?.response?.data?.message || "Failed to fetch user profile.";
+    toast.error(message);
+    throw err;
+  }
+};
+
+// 🛠️ Update User Profile
+export const update = async (data) => {
+  try {
+    const res = await axios.patch("/user/update", data);
+    toast.success("Profile updated successfully!");
+    return res.data?.data;
+  } catch (err) {
+    const message =
+      err?.response?.data?.message ||
+      "Failed to update profile. Please try again.";
+    toast.error(message);
+    throw err;
+  }
+};
